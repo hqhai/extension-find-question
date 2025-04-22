@@ -50,4 +50,8 @@ FK-Extensions/
 
 ## Đóng góp
 
-Mọi đóng góp đều được hoan nghênh! Vui lòng tạo issue hoặc pull request. 
+Mọi đóng góp đều được hoan nghênh! Vui lòng tạo issue hoặc pull request.
+
+## Cập nhật mới
+
+- **Thêm phím tắt**: Bây giờ bạn có thể sử dụng phím tắt **Alt+Q** để tìm câu trả lời cho câu hỏi đã chọn mà không cần phải sử dụng menu ngữ cảnh. 
