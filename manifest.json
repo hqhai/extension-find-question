@@ -29,5 +29,13 @@
             "resources": ["question.json.txt"],
             "matches": ["<all_urls>"]
         }
-    ]
+    ],
+    "commands": {
+        "find-answer": {
+            "suggested_key": {
+                "default": "Alt+Q"
+            },
+            "description": "Tìm câu trả lời cho văn bản đã chọn"
+        }
+    }
 } 
