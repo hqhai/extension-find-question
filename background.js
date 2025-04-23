@@ -9,20 +9,21 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     } else if (request.type === 'manualSearch' && request.text) {
         // Xử lý tìm kiếm thủ công từ content script
         console.log('Manual search triggered with text:', request.text);
-        processSelectedText(request.text, sender.tab.id);
+        processSelectedText(request.text, sender.tab.id, request.imageSource || null);
     }
 });
 
 // Hàm tìm và trả về câu trả lời
-function processSelectedText(selectedText, tabId) {
+function processSelectedText(selectedText, tabId, imageSource = null) {
     console.log('Selected text:', selectedText);
+    console.log('Image source:', imageSource);
     
     // Lấy dữ liệu câu hỏi từ storage
     chrome.storage.local.get(['questions'], function(result) {
         console.log('Got questions from storage:', result.questions ? result.questions.length : 0);
         
         if (result.questions) {
-            const answer = findAnswer(result.questions, selectedText);
+            const answer = findAnswer(result.questions, selectedText, imageSource);
             console.log('Found answer:', answer);
             
             // Gửi kết quả về content script
@@ -77,16 +78,53 @@ function similarityScore(str1, str2) {
     return 1 - (matrix[len1][len2] / Math.max(len1, len2));
 }
 
+// Hàm tính độ tương đồng giữa hai URL hình ảnh
+function compareImageSources(src1, src2) {
+    if (!src1 || !src2) return 0;
+    
+    // Trích xuất phần tên file từ đường dẫn URL
+    try {
+        const getFileName = (url) => {
+            // Loại bỏ querystring và hash nếu có
+            const cleanUrl = url.split('?')[0].split('#')[0];
+            // Lấy phần tên file
+            const parts = cleanUrl.split('/');
+            return parts[parts.length - 1];
+        };
+        
+        const filename1 = getFileName(src1);
+        const filename2 = getFileName(src2);
+        
+        // So sánh tên file
+        return similarityScore(filename1, filename2);
+    } catch (error) {
+        console.error('Error comparing image sources:', error);
+        return 0;
+    }
+}
+
 // Hàm tìm câu trả lời
-function findAnswer(questions, query) {
+function findAnswer(questions, query, imageSource = null) {
     console.log('Searching for:', query);
+    console.log('With image source:', imageSource);
     console.log('Number of questions:', questions.length);
     
     let bestMatch = null;
     let highestRatio = 0;
     
     for (const question of questions) {
-        const ratio = similarityScore(query, question.content);
+        let ratio = similarityScore(query, question.content);
+        
+        // Nếu có hình ảnh, so sánh thêm URL hình ảnh để nâng cao độ chính xác
+        if (imageSource && question.image) {
+            const imageRatio = compareImageSources(imageSource, question.image);
+            // Nếu hình ảnh khớp cao, tăng độ tương đồng tổng thể
+            if (imageRatio > 0.7) {
+                ratio = Math.max(ratio, (ratio + imageRatio) / 2);
+                console.log('Image match boost for question:', question.content, 'New ratio:', ratio);
+            }
+        }
+        
         if (ratio > highestRatio) {
             highestRatio = ratio;
             bestMatch = question;
@@ -124,6 +162,13 @@ chrome.runtime.onInstalled.addListener(() => {
         contexts: ["selection"]
     });
 
+    // Thêm context menu cho tự động trả lời
+    chrome.contextMenus.create({
+        id: "autoAnswer",
+        title: "Tự động trả lời tất cả câu hỏi",
+        contexts: ["page"]
+    });
+
     // Load dữ liệu câu hỏi
     console.log('Loading questions...');
     fetch(chrome.runtime.getURL('question.json.txt'))
@@ -148,6 +193,13 @@ chrome.runtime.onInstalled.addListener(() => {
 chrome.contextMenus.onClicked.addListener((info, tab) => {
     if (info.menuItemId === "findAnswer") {
         processSelectedText(info.selectionText, tab.id);
+    } else if (info.menuItemId === "autoAnswer") {
+        // Gửi lệnh tự động trả lời đến content script
+        chrome.tabs.sendMessage(tab.id, { type: 'autoAnswer' }, (response) => {
+            if (chrome.runtime.lastError) {
+                console.error('Error sending auto-answer message:', chrome.runtime.lastError);
+            }
+        });
     }
 });
 
@@ -166,6 +218,13 @@ chrome.commands.onCommand.addListener((command, tab) => {
                 processSelectedText(response.selectedText, tab.id);
             } else {
                 console.error('No text selected or unable to get selected text');
+            }
+        });
+    } else if (command === 'auto-answer') {
+        // Gửi lệnh tự động trả lời đến content script
+        chrome.tabs.sendMessage(tab.id, { type: 'autoAnswer' }, (response) => {
+            if (chrome.runtime.lastError) {
+                console.error('Error sending auto-answer message:', chrome.runtime.lastError);
             }
         });
     }

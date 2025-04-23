@@ -1,0 +1,4180 @@
+{
+  "success": true,
+  "result": {
+    "questions": {
+      "result": [
+        {
+          "iid": "677d5fbdf3edb9bcba04245e",
+          "id": "677d5fbdf3edb9bcba04245e",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi điều khiển xe mô tô tay ga xuống đường dốc dài, độ dốc cao, người lái xe cần thực hiện các thao tác nào dưới đây để đảm bảo an toàn?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 3,
+          "answer_as_hint": "",
+          "answers": [
+            0
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Giữ tay ga ở mức độ phù hợp, sử dụng phanh trước và phanh sau để giảm tốc độ.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Nhả hết tay ga, tắt động cơ, sử dụng phanh trước và phanh sau để giảm tốc độ.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Sử dụng phanh trước để giảm tốc độ kết hợp với tắt chìa khóa điện của xe.",
+              "is_answer": 0
+            }
+          ],
+          "feedback_true": "Xe mô tô xuống dốc dài cần sử dụng cả phanh trước và phanh sau để giảm tốc độ.",
+          "feedback_false": "Xe mô tô xuống dốc dài cần sử dụng cả phanh trước và phanh sau để giảm tốc độ.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Giữ tay ga ở mức độ phù hợp, sử dụng phanh trước và phanh sau để giảm tốc độ.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Nhả hết tay ga, tắt động cơ, sử dụng phanh trước và phanh sau để giảm tốc độ.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Sử dụng phanh trước để giảm tốc độ kết hợp với tắt chìa khóa điện của xe.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 49,
+          "clone_from": "669dda31b9926d2b780badfa",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 1,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fbdf3edb9bcba04245f",
+          "id": "677d5fbdf3edb9bcba04245f",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi vào số để khởi hành xe ô tô có số tự động, người lái xe phải thực hiện các thao tác nào để đảm bảo an toàn?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 2,
+          "answer_as_hint": "",
+          "answers": [
+            0
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Đạp bàn đạp phanh chân hết hành trình, vào số và nhả phanh tay nếu có, kiểm tra lại xem có bị nhầm số không rồi mới cho xe lăn bánh.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Đạp bàn đạp để tăng ga với mức độ phù hợp, vào số và kiểm tra lại xem có bị nhầm số không rồi mới cho xe lăn bánh.",
+              "is_answer": 0
+            }
+          ],
+          "feedback_true": "Khởi hành xe ô tô số tự động cần đạp phanh chân hết hành trình.",
+          "feedback_false": "Khởi hành xe ô tô số tự động cần đạp phanh chân hết hành trình.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Đạp bàn đạp phanh chân hết hành trình, vào số và nhả phanh tay nếu có, kiểm tra lại xem có bị nhầm số không rồi mới cho xe lăn bánh.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Đạp bàn đạp để tăng ga với mức độ phù hợp, vào số và kiểm tra lại xem có bị nhầm số không rồi mới cho xe lăn bánh.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 50,
+          "clone_from": "669dda32b9926d2b780badfb",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fbdf3edb9bcba042460",
+          "id": "677d5fbdf3edb9bcba042460",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi nhả hệ thống phanh dừng cơ khí điều khiển bằng tay (phanh tay), người lái xe cần phải thực hiện các thao tác nào?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 3,
+          "answer_as_hint": "",
+          "answers": [
+            1
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Dùng lực tay phải kéo cần phanh tay về phía sau hết hành trình; nếu khóa hãm bị kẹt cứng phải đẩy mạnh phanh tay về phía trước, sau đó bóp khóa hãm.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Dùng lực tay phải bóp khóa hãm đẩy cần phanh tay về phía trước hết hành trình; nếu khóa hãm bị kẹt cứng phải kéo cần phanh tay về phía sau đồng thời bóp khóa hãm.",
+              "is_answer": 1
+            },
+            {
+              "text": "3- Dùng lực tay phải đẩy cần phanh tay về phía trước hết hành trình; nếu khóa hãm bị kẹt cứng phải đẩy mạnh cần phanh tay về phía trước, sau đó bóp khóa hãm.",
+              "is_answer": 0
+            }
+          ],
+          "feedback_true": "Thực hiện phanh tay cần phải bóp khóa hãm đẩy cần phanh tay về phía trước.",
+          "feedback_false": "Thực hiện phanh tay cần phải bóp khóa hãm đẩy cần phanh tay về phía trước.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Dùng lực tay phải kéo cần phanh tay về phía sau hết hành trình; nếu khóa hãm bị kẹt cứng phải đẩy mạnh phanh tay về phía trước, sau đó bóp khóa hãm.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Dùng lực tay phải bóp khóa hãm đẩy cần phanh tay về phía trước hết hành trình; nếu khóa hãm bị kẹt cứng phải kéo cần phanh tay về phía sau đồng thời bóp khóa hãm.",
+              "is_answer": 1
+            },
+            {
+              "text": "3- Dùng lực tay phải đẩy cần phanh tay về phía trước hết hành trình; nếu khóa hãm bị kẹt cứng phải đẩy mạnh cần phanh tay về phía trước, sau đó bóp khóa hãm.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 70,
+          "clone_from": "669dda33b9926d2b780badfc",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fbef3edb9bcba042461",
+          "id": "677d5fbef3edb9bcba042461",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi khởi hành ô tô sử dụng hộp số cơ khí trên đường bằng, người lái xe cần thực hiện các thao tác nào theo trình tự dưới đây?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 2,
+          "answer_as_hint": "",
+          "answers": [
+            1
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Kiểm tra an toàn xung quanh xe ô tô; nhả từ từ đến 1/2 hành trình bàn đạp ly hợp (côn) và giữ trong khoảng 3 giây; vào số 1; nhả hết phanh tay, báo hiệu bằng còi, đèn trước khi xuất phát; tăng ga đủ để xuất phát, sau đó vừa tăng ga vừa nhả hết ly hợp để cho xe ô tô chuyển động.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Kiểm tra an toàn xung quanh xe ô tô; đạp ly hợp (côn) hết hành trình; vào số 1; nhả hết phanh tay, báo hiệu bằng còi, đèn trước khi xuất phát; tăng ga đủ để xuất phát; nhả từ từ đến 1/2 hành trình bàn đạp ly hợp và giữ trong khoảng 3 giây, sau đó vừa tăng ga vừa nhả hết ly hợp (côn) để cho xe ô tô chuyển động.",
+              "is_answer": 1
+            }
+          ],
+          "feedback_true": "Khởi hành ô tô sử dụng hộp số đạp côn hết hành trình; vào số 1.",
+          "feedback_false": "Khởi hành ô tô sử dụng hộp số đạp côn hết hành trình; vào số 1.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Kiểm tra an toàn xung quanh xe ô tô; nhả từ từ đến 1/2 hành trình bàn đạp ly hợp (côn) và giữ trong khoảng 3 giây; vào số 1; nhả hết phanh tay, báo hiệu bằng còi, đèn trước khi xuất phát; tăng ga đủ để xuất phát, sau đó vừa tăng ga vừa nhả hết ly hợp để cho xe ô tô chuyển động.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Kiểm tra an toàn xung quanh xe ô tô; đạp ly hợp (côn) hết hành trình; vào số 1; nhả hết phanh tay, báo hiệu bằng còi, đèn trước khi xuất phát; tăng ga đủ để xuất phát; nhả từ từ đến 1/2 hành trình bàn đạp ly hợp và giữ trong khoảng 3 giây, sau đó vừa tăng ga vừa nhả hết ly hợp (côn) để cho xe ô tô chuyển động.",
+              "is_answer": 1
+            }
+          ],
+          "kpi_time": 90,
+          "clone_from": "669dda34b9926d2b780badfd",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fbef3edb9bcba042462",
+          "id": "677d5fbef3edb9bcba042462",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi quay đầu xe, người lái xe cần phải quan sát và thực hiện các thao tác nào để đảm bảo an toàn giao thông?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 2,
+          "answer_as_hint": "",
+          "answers": [
+            0
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Quan sát biển báo hiệu để biết nơi được phép quay đầu; quan sát kỹ địa hình nơi chọn để quay đầu; lựa chọn quỹ đạo quay đầu xe cho thích hợp; quay đầu xe với tốc độ thấp; thường xuyên báo tín hiệu để người, các phương tiện xung quanh được biết; nếu quay đầu xe ở nơi nguy hiểm thì đưa đầu xe về phía nguy hiểm đưa đuôi xe về phía an toàn.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Quan sát biển báo hiệu để biết nơi được phép quay đầu; quan sát kỹ địa hình nơi chọn để quay đầu; lựa chọn quỹ đạo quay đầu xe; quay đầu xe với tốc độ tối đa; thường xuyên báo tín hiệu để người, các phương tiện xung quanh được biết; nếu quay đầu xe ở nơi nguy hiểm thì đưa đuôi xe về phía nguy hiểm và đầu xe về phía an toàn.",
+              "is_answer": 0
+            }
+          ],
+          "feedback_true": "Đưa đầu xe về phía nguy hiểm, đuôi xe về phía an toàn.",
+          "feedback_false": "Đưa đầu xe về phía nguy hiểm, đuôi xe về phía an toàn.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Quan sát biển báo hiệu để biết nơi được phép quay đầu; quan sát kỹ địa hình nơi chọn để quay đầu; lựa chọn quỹ đạo quay đầu xe cho thích hợp; quay đầu xe với tốc độ thấp; thường xuyên báo tín hiệu để người, các phương tiện xung quanh được biết; nếu quay đầu xe ở nơi nguy hiểm thì đưa đầu xe về phía nguy hiểm đưa đuôi xe về phía an toàn.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Quan sát biển báo hiệu để biết nơi được phép quay đầu; quan sát kỹ địa hình nơi chọn để quay đầu; lựa chọn quỹ đạo quay đầu xe; quay đầu xe với tốc độ tối đa; thường xuyên báo tín hiệu để người, các phương tiện xung quanh được biết; nếu quay đầu xe ở nơi nguy hiểm thì đưa đuôi xe về phía nguy hiểm và đầu xe về phía an toàn.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 93,
+          "clone_from": "669dda34b9926d2b780badfe",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fbef3edb9bcba042463",
+          "id": "677d5fbef3edb9bcba042463",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi tránh nhau trên đường hẹp, người lái xe cần phải chú ý những điểm nào để đảm bảo an toàn giao thông?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 4,
+          "answer_as_hint": "",
+          "answers": [
+            3
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Không nên đi cố vào đường hẹp; xe đi ở phía sườn núi nên dừng lại trước để nhường đường; khi dừng xe nhường đường phải đỗ ngay ngắn.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Trong khi tránh nhau không nên đổi số; khi tránh nhau ban đêm, phải tắt đèn pha bật đèn cốt.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Khi tránh nhau ban đêm, phải thường xuyên bật đèn pha tắt đèn cốt.",
+              "is_answer": 0
+            },
+            {
+              "text": "4- Cả ý 1 và ý 2.",
+              "is_answer": 1
+            }
+          ],
+          "feedback_true": "Cả ý 1 và ý 2 đều đúng. Ý 3 tránh nhau ban đêm bật đèn pha là sai.",
+          "feedback_false": "Cả ý 1 và ý 2 đều đúng. Ý 3 tránh nhau ban đêm bật đèn pha là sai.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Không nên đi cố vào đường hẹp; xe đi ở phía sườn núi nên dừng lại trước để nhường đường; khi dừng xe nhường đường phải đỗ ngay ngắn.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Trong khi tránh nhau không nên đổi số; khi tránh nhau ban đêm, phải tắt đèn pha bật đèn cốt.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Khi tránh nhau ban đêm, phải thường xuyên bật đèn pha tắt đèn cốt.",
+              "is_answer": 0
+            },
+            {
+              "text": "4- Cả ý 1 và ý 2.",
+              "is_answer": 1
+            }
+          ],
+          "kpi_time": 53,
+          "clone_from": "669dda35b9926d2b780badff",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fbef3edb9bcba042464",
+          "id": "677d5fbef3edb9bcba042464",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi điều khiển ô tô lên dốc cao, người lái xe cần thực hiện các thao tác nào?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 2,
+          "answer_as_hint": "",
+          "answers": [
+            1
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Tăng lên số cao từ chân dốc, điều chỉnh ga cho xe nhanh lên dốc; đến gần đỉnh dốc phải tăng ga để xe nhanh chóng qua dốc; về số thấp, đi sát về phía bên phải đường, có tín hiệu (còi, đèn) để báo cho người lái xe đi ngược chiều biết.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Về số thấp từ chân dốc, điều chỉnh ga cho xe từ từ lên dốc; đến gần đỉnh dốc phải đi chậm, đi sát về phía bên phải đường, có tín hiệu (còi, đèn) để báo cho người lái xe đi ngược chiều biết.",
+              "is_answer": 1
+            }
+          ],
+          "feedback_true": "Ô tô lên dốc cao cần về số thấp từ chân dốc.",
+          "feedback_false": "Ô tô lên dốc cao cần về số thấp từ chân dốc.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Tăng lên số cao từ chân dốc, điều chỉnh ga cho xe nhanh lên dốc; đến gần đỉnh dốc phải tăng ga để xe nhanh chóng qua dốc; về số thấp, đi sát về phía bên phải đường, có tín hiệu (còi, đèn) để báo cho người lái xe đi ngược chiều biết.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Về số thấp từ chân dốc, điều chỉnh ga cho xe từ từ lên dốc; đến gần đỉnh dốc phải đi chậm, đi sát về phía bên phải đường, có tín hiệu (còi, đèn) để báo cho người lái xe đi ngược chiều biết.",
+              "is_answer": 1
+            }
+          ],
+          "kpi_time": 63,
+          "clone_from": "669dda36b9926d2b780bae00",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fbef3edb9bcba042465",
+          "id": "677d5fbef3edb9bcba042465",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi điều khiển ô tô xuống dốc cao, người lái xe cần thực hiện các thao tác nào dưới đây để đảm bảo an toàn?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 3,
+          "answer_as_hint": "",
+          "answers": [
+            1
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Tăng lên số cao, nhả bàn đạp ga ở mức độ phù hợp, kết hợp với phanh chân để khống chế tốc độ.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Về số thấp, nhả bàn đạp ga ở mức độ phù hợp, kết hợp với phanh chân để khống chế tốc độ.",
+              "is_answer": 1
+            },
+            {
+              "text": "3- Về số không (N), nhả bàn đạp ga ở mức độ phù hợp, kết hợp với phanh chân để khống chế tốc độ.",
+              "is_answer": 0
+            }
+          ],
+          "feedback_true": "Ô tô xuống dốc cao cần về số thấp.",
+          "feedback_false": "Ô tô xuống dốc cao cần về số thấp.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Tăng lên số cao, nhả bàn đạp ga ở mức độ phù hợp, kết hợp với phanh chân để khống chế tốc độ.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Về số thấp, nhả bàn đạp ga ở mức độ phù hợp, kết hợp với phanh chân để khống chế tốc độ.",
+              "is_answer": 1
+            },
+            {
+              "text": "3- Về số không (N), nhả bàn đạp ga ở mức độ phù hợp, kết hợp với phanh chân để khống chế tốc độ.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 53,
+          "clone_from": "669dda37b9926d2b780bae01",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 1,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fbef3edb9bcba042466",
+          "id": "677d5fbef3edb9bcba042466",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi xuống dốc, muốn dừng xe, người lái xe cần thực hiện các thao tác nào để đảm bảo an toàn?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 3,
+          "answer_as_hint": "",
+          "answers": [
+            0
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Có tín hiệu rẽ phải, điều khiển xe sát vào lề đường bên phải; đạp phanh sớm và mạnh hơn lúc dừng xe trên đường bằng để xe đi với tốc độ chậm đến mức dễ dàng dừng lại được; về số 1, đạp nửa ly hợp (côn) cho xe đến chỗ dừng; khi xe đã dừng, về số không (N), đạp phanh chân và kéo phanh tay.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Có tín hiệu rẽ phải, điều khiển xe sát vào lề đường bên trái; đạp hết hành trình ly hợp (côn) và nhả bàn đạp ga để xe đi với tốc độ chậm đến mức dễ dàng dừng lại được tại chỗ dừng; khi xe đã dừng, đạp và giữ phanh chân.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Có tín hiệu rẽ trái, điều khiển xe sát vào lề đường bên phải; đạp phanh sớm và mạnh hơn lúc dừng xe trên đường bằng để xe đi với tốc độ chậm đến mức dễ dàng dừng lại được; về số không (N) để xe đi đến chỗ dừng, khi xe đã dừng, kéo phanh tay.",
+              "is_answer": 0
+            }
+          ],
+          "feedback_true": "Khi xuống dốc muốn dừng xe thì có tín hiệu rẽ phải, điều khiển xe vào lề đường bên phải.",
+          "feedback_false": "Khi xuống dốc muốn dừng xe thì có tín hiệu rẽ phải, điều khiển xe vào lề đường bên phải.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Có tín hiệu rẽ phải, điều khiển xe sát vào lề đường bên phải; đạp phanh sớm và mạnh hơn lúc dừng xe trên đường bằng để xe đi với tốc độ chậm đến mức dễ dàng dừng lại được; về số 1, đạp nửa ly hợp (côn) cho xe đến chỗ dừng; khi xe đã dừng, về số không (N), đạp phanh chân và kéo phanh tay.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Có tín hiệu rẽ phải, điều khiển xe sát vào lề đường bên trái; đạp hết hành trình ly hợp (côn) và nhả bàn đạp ga để xe đi với tốc độ chậm đến mức dễ dàng dừng lại được tại chỗ dừng; khi xe đã dừng, đạp và giữ phanh chân.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Có tín hiệu rẽ trái, điều khiển xe sát vào lề đường bên phải; đạp phanh sớm và mạnh hơn lúc dừng xe trên đường bằng để xe đi với tốc độ chậm đến mức dễ dàng dừng lại được; về số không (N) để xe đi đến chỗ dừng, khi xe đã dừng, kéo phanh tay.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 105,
+          "clone_from": "669dda38b9926d2b780bae02",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fbef3edb9bcba042467",
+          "id": "677d5fbef3edb9bcba042467",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi điều khiển xe trên đường vòng người lái xe cần phải làm gì để đảm bảo an toàn?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 2,
+          "answer_as_hint": "",
+          "answers": [
+            0
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Quan sát cẩn thận các chướng ngại vật và báo hiệu bằng còi, đèn; giảm tốc độ tới mức cần thiết, về số thấp và thực hiện quay vòng với tốc độ phù hợp với bán kính cong của đường vòng.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Quan sát cẩn thận các chướng ngại vật và báo hiệu bằng còi, đèn; tăng tốc để nhanh chóng qua đường vòng và giảm tốc độ sau khi qua đường vòng.",
+              "is_answer": 0
+            }
+          ],
+          "feedback_true": "Điều khiển xe trên đường vòng cần giảm tốc độ.",
+          "feedback_false": "Điều khiển xe trên đường vòng cần giảm tốc độ.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Quan sát cẩn thận các chướng ngại vật và báo hiệu bằng còi, đèn; giảm tốc độ tới mức cần thiết, về số thấp và thực hiện quay vòng với tốc độ phù hợp với bán kính cong của đường vòng.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Quan sát cẩn thận các chướng ngại vật và báo hiệu bằng còi, đèn; tăng tốc để nhanh chóng qua đường vòng và giảm tốc độ sau khi qua đường vòng.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 51,
+          "clone_from": "669dda39b9926d2b780bae03",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fbef3edb9bcba042468",
+          "id": "677d5fbef3edb9bcba042468",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi điều khiển xe ô tô rẽ phải ở chỗ đường giao nhau, người lái xe cần thực hiện các thao tác nào để đảm bảo an toàn?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 3,
+          "answer_as_hint": "",
+          "answers": [
+            1
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Có tín hiệu rẽ phải; quan sát an toàn phía sau; điều khiển xe sang làn đường bên trái; giảm tốc độ và quan sát an toàn phía bên phải để điều khiển xe qua chỗ đường giao nhau.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Cách chỗ rẽ một khoảng cách an toàn có tín hiệu rẽ phải; quan sát an toàn phía sau; điều khiển xe bám sát vào phía phải đường; giảm tốc độ và quan sát an toàn phía bên phải để điều khiển xe qua chỗ đường giao nhau.",
+              "is_answer": 1
+            },
+            {
+              "text": "3- Cách chỗ rẽ một khoảng cách an toàn có tín hiệu rẽ phải; quan sát an toàn phía sau; điều khiển xe bám sát vào phía phải đường; tăng tốc độ và quan sát an toàn phía bên trái để điều khiển xe qua chỗ đường giao nhau.",
+              "is_answer": 0
+            }
+          ],
+          "feedback_true": "Điều khiển xe rẽ phải thì bám sát vào phía phải đường và giảm tốc độ.",
+          "feedback_false": "Điều khiển xe rẽ phải thì bám sát vào phía phải đường và giảm tốc độ.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Có tín hiệu rẽ phải; quan sát an toàn phía sau; điều khiển xe sang làn đường bên trái; giảm tốc độ và quan sát an toàn phía bên phải để điều khiển xe qua chỗ đường giao nhau.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Cách chỗ rẽ một khoảng cách an toàn có tín hiệu rẽ phải; quan sát an toàn phía sau; điều khiển xe bám sát vào phía phải đường; giảm tốc độ và quan sát an toàn phía bên phải để điều khiển xe qua chỗ đường giao nhau.",
+              "is_answer": 1
+            },
+            {
+              "text": "3- Cách chỗ rẽ một khoảng cách an toàn có tín hiệu rẽ phải; quan sát an toàn phía sau; điều khiển xe bám sát vào phía phải đường; tăng tốc độ và quan sát an toàn phía bên trái để điều khiển xe qua chỗ đường giao nhau.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 88,
+          "clone_from": "669dda39b9926d2b780bae04",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fbef3edb9bcba042469",
+          "id": "677d5fbef3edb9bcba042469",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi điều khiển xe ô tô rẽ trái ở chỗ đường giao nhau, người lái xe cần thực hiện các thao tác nào để đảm bảo an toàn?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 2,
+          "answer_as_hint": "",
+          "answers": [
+            0
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Cách chỗ rẽ một khoảng cách an toàn giảm tốc độ, có tín hiệu rẽ trái xin đổi làn đường; quan sát an toàn xung quanh đặc biệt là bên trái; đổi sang làn đường bên trái; cho xe chạy chậm tới phía trong của tâm đường giao nhau mới rẽ trái để điều khiển xe qua chỗ đường giao nhau.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Cách chỗ rẽ một khoảng cách an toàn có tín hiệu rẽ trái, tăng tốc độ để xe nhanh chóng qua chỗ đường giao nhau; có tín hiệu xin đổi làn đường; quan sát an toàn xung quanh đặc biệt là bên trái; đổi làn đường sang phải để mở rộng vòng cua.",
+              "is_answer": 0
+            }
+          ],
+          "feedback_true": "Điều khiển xe rẽ trái thì giảm tốc độ.",
+          "feedback_false": "Điều khiển xe rẽ trái thì giảm tốc độ.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Cách chỗ rẽ một khoảng cách an toàn giảm tốc độ, có tín hiệu rẽ trái xin đổi làn đường; quan sát an toàn xung quanh đặc biệt là bên trái; đổi sang làn đường bên trái; cho xe chạy chậm tới phía trong của tâm đường giao nhau mới rẽ trái để điều khiển xe qua chỗ đường giao nhau.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Cách chỗ rẽ một khoảng cách an toàn có tín hiệu rẽ trái, tăng tốc độ để xe nhanh chóng qua chỗ đường giao nhau; có tín hiệu xin đổi làn đường; quan sát an toàn xung quanh đặc biệt là bên trái; đổi làn đường sang phải để mở rộng vòng cua.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 77,
+          "clone_from": "669dda3ab9926d2b780bae05",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fbff3edb9bcba04246a",
+          "id": "677d5fbff3edb9bcba04246a",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi điều khiển xe sử dụng hộp số cơ khí vượt qua rãnh lớn cắt ngang mặt đường, người lái xe cần thực hiện các thao tác nào để đảm bảo an toàn?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 3,
+          "answer_as_hint": "",
+          "answers": [
+            2
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Gài số một (1) và từ từ cho hai bánh xe trước xuống rãnh, tăng ga cho hai bánh xe trước vượt lên khỏi rãnh, tăng số, tăng tốc độ để bánh xe sau vượt qua rãnh.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Tăng ga, tăng số để hai bánh xe trước và bánh xe sau vượt qua khỏi rãnh và chạy bình thường.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Gài số một (1) và từ từ cho hai bánh xe trước xuống rãnh, tăng ga cho hai bánh xe trước vượt lên khỏi rãnh, tiếp tục để bánh xe sau từ từ xuống rãnh rồi tăng dần ga cho xe ô tô lên khỏi rãnh.",
+              "is_answer": 1
+            }
+          ],
+          "feedback_true": "Điều khiển xe số tay qua rãnh lớn thì gài số một (1), và không tăng số cho đến khi qua khỏi rãnh.",
+          "feedback_false": "Điều khiển xe số tay qua rãnh lớn thì gài số một (1), và không tăng số cho đến khi qua khỏi rãnh.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Gài số một (1) và từ từ cho hai bánh xe trước xuống rãnh, tăng ga cho hai bánh xe trước vượt lên khỏi rãnh, tăng số, tăng tốc độ để bánh xe sau vượt qua rãnh.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Tăng ga, tăng số để hai bánh xe trước và bánh xe sau vượt qua khỏi rãnh và chạy bình thường.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Gài số một (1) và từ từ cho hai bánh xe trước xuống rãnh, tăng ga cho hai bánh xe trước vượt lên khỏi rãnh, tiếp tục để bánh xe sau từ từ xuống rãnh rồi tăng dần ga cho xe ô tô lên khỏi rãnh.",
+              "is_answer": 1
+            }
+          ],
+          "kpi_time": 75,
+          "clone_from": "669dda3bb9926d2b780bae06",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fbff3edb9bcba04246b",
+          "id": "677d5fbff3edb9bcba04246b",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi điều khiển xe qua đường sắt, người lái xe cần phải thực hiện các thao tác nào dưới đây để đảm bảo an toàn?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 3,
+          "answer_as_hint": "",
+          "answers": [
+            2
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Khi có chuông báo hoặc thanh chắn đã hạ xuống, người lái xe phải dừng xe tạm thời đúng khoảng cách an toàn, kéo phanh tay nếu đường dốc hoặc phải chờ lâu.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Khi không có chuông báo hoặc thanh chắn không hạ xuống, người lái xe phải quan sát nếu thấy đủ điều kiện an toàn thì về số thấp, tăng ga nhẹ để tránh động cơ chết máy cho xe vượt qua.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Cả ý 1 và ý 2.",
+              "is_answer": 1
+            }
+          ],
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Khi có chuông báo hoặc thanh chắn đã hạ xuống, người lái xe phải dừng xe tạm thời đúng khoảng cách an toàn, kéo phanh tay nếu đường dốc hoặc phải chờ lâu.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Khi không có chuông báo hoặc thanh chắn không hạ xuống, người lái xe phải quan sát nếu thấy đủ điều kiện an toàn thì về số thấp, tăng ga nhẹ để tránh động cơ chết máy cho xe vượt qua.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Cả ý 1 và ý 2.",
+              "is_answer": 1
+            }
+          ],
+          "kpi_time": 59,
+          "clone_from": "669dda3cb9926d2b780bae07",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 1,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fbff3edb9bcba04246c",
+          "id": "677d5fbff3edb9bcba04246c",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi điều khiển xe ô tô tự đổ, người lái xe cần chú ý những điểm gì để đảm bảo an toàn?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 4,
+          "answer_as_hint": "",
+          "answers": [
+            3
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Khi chạy trên đường xấu, nhiều ổ gà nên chạy chậm để thùng xe không bị lắc mạnh, không gây hiện tượng lệch “ben”; khi chạy vào đường vòng, cần giảm tốc độ, không lấy lái gấp và không phanh gấp.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Khi chạy trên đường quốc lộ, đường bằng phẳng không cần hạ hết thùng xe xuống.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Khi đổ hàng phải chọn vị trí có nền đường cứng và phẳng, dừng hẳn xe, kéo chặt phanh tay; sau đó mới điều khiển cơ cấu nâng “ben” để đổ hàng, đổ xong hàng mới hạ thùng xuống.",
+              "is_answer": 0
+            },
+            {
+              "text": "4- Cả ý 1 và ý 3.",
+              "is_answer": 1
+            }
+          ],
+          "feedback_true": "Xe ben khi đang chạy thì phải hạ hết thùng xe xuống nên ý 2 là sai. Cả ý 1 và ý 3 đều đúng.",
+          "feedback_false": "Xe ben khi đang chạy thì phải hạ hết thùng xe xuống nên ý 2 là sai. Cả ý 1 và ý 3 đều đúng.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Khi chạy trên đường xấu, nhiều ổ gà nên chạy chậm để thùng xe không bị lắc mạnh, không gây hiện tượng lệch “ben”; khi chạy vào đường vòng, cần giảm tốc độ, không lấy lái gấp và không phanh gấp.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Khi chạy trên đường quốc lộ, đường bằng phẳng không cần hạ hết thùng xe xuống.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Khi đổ hàng phải chọn vị trí có nền đường cứng và phẳng, dừng hẳn xe, kéo chặt phanh tay; sau đó mới điều khiển cơ cấu nâng “ben” để đổ hàng, đổ xong hàng mới hạ thùng xuống.",
+              "is_answer": 0
+            },
+            {
+              "text": "4- Cả ý 1 và ý 3.",
+              "is_answer": 1
+            }
+          ],
+          "kpi_time": 69,
+          "clone_from": "669dda3db9926d2b780bae08",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fbff3edb9bcba04246d",
+          "id": "677d5fbff3edb9bcba04246d",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi điều khiển xe tăng số, người lái xe cần chú ý những điểm gì để đảm bảo an toàn?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 2,
+          "answer_as_hint": "",
+          "answers": [
+            0
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Không được nhìn xuống buồng lái, cần phải tăng thứ tự từ thấp đến cao, phối hợp các động tác phải nhịp nhàng, chính xác.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Nhìn xuống buồng lái để biết chính xác vị trí các tay số, cần phải tăng thứ tự từ thấp đến cao, phối hợp các động tác phải nhịp nhàng, vù ga phải phù hợp với tốc độ.",
+              "is_answer": 0
+            }
+          ],
+          "feedback_true": "Không được nhìn xuống buồng lái khi tăng số.",
+          "feedback_false": "Không được nhìn xuống buồng lái khi tăng số.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Không được nhìn xuống buồng lái, cần phải tăng thứ tự từ thấp đến cao, phối hợp các động tác phải nhịp nhàng, chính xác.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Nhìn xuống buồng lái để biết chính xác vị trí các tay số, cần phải tăng thứ tự từ thấp đến cao, phối hợp các động tác phải nhịp nhàng, vù ga phải phù hợp với tốc độ.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 47,
+          "clone_from": "669dda3eb9926d2b780bae09",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fbff3edb9bcba04246e",
+          "id": "677d5fbff3edb9bcba04246e",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi điều khiển xe giảm số, người lái xe cần chú ý những điểm gì để đảm bảo an toàn?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 2,
+          "answer_as_hint": "",
+          "answers": [
+            1
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Nhìn xuống buồng lái để biết chính xác vị trí các tay số, cần phải giảm thứ tự từ cao đến thấp, phối hợp các động tác phải nhịp nhàng, chính xác.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Không được nhìn xuống buồng lái, cần phải giảm thứ tự từ cao đến thấp, phối hợp các động tác phải nhịp nhàng chính xác, vù ga phải phù hợp với tốc độ.",
+              "is_answer": 1
+            }
+          ],
+          "feedback_true": "Không được nhìn xuống buồng lái khi giảm số.",
+          "feedback_false": "Không được nhìn xuống buồng lái khi giảm số.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Nhìn xuống buồng lái để biết chính xác vị trí các tay số, cần phải giảm thứ tự từ cao đến thấp, phối hợp các động tác phải nhịp nhàng, chính xác.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Không được nhìn xuống buồng lái, cần phải giảm thứ tự từ cao đến thấp, phối hợp các động tác phải nhịp nhàng chính xác, vù ga phải phù hợp với tốc độ.",
+              "is_answer": 1
+            }
+          ],
+          "kpi_time": 48,
+          "clone_from": "669dda3eb9926d2b780bae0a",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fbff3edb9bcba04246f",
+          "id": "677d5fbff3edb9bcba04246f",
+          "ntype": "question",
+          "type": 2,
+          "content": "Để giảm tốc độ khi ô tô đi xuống đường dốc dài, người lái xe phải thực hiện các thao tác nào để đảm bảo an toàn?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 3,
+          "answer_as_hint": "",
+          "answers": [
+            1
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Nhả bàn đạp ga, đạp ly hợp (côn) hết hành trình, đạp mạnh phanh chân để giảm tốc độ.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Về số thấp phù hợp, nhả bàn đạp ga, đạp phanh chân với mức độ phù hợp để giảm tốc độ.",
+              "is_answer": 1
+            },
+            {
+              "text": "3- Nhả bàn đạp ga, tăng lên số cao, đạp phanh chân với mức độ phù hợp để giảm tốc độ.",
+              "is_answer": 0
+            }
+          ],
+          "feedback_true": "Để giảm tốc độ khi ô tô xuống dốc dài thì về số thấp phù hợp, nhả bàn đạp ga, đạp phanh chân phù hợp.",
+          "feedback_false": "Để giảm tốc độ khi ô tô xuống dốc dài thì về số thấp phù hợp, nhả bàn đạp ga, đạp phanh chân phù hợp.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Nhả bàn đạp ga, đạp ly hợp (côn) hết hành trình, đạp mạnh phanh chân để giảm tốc độ.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Về số thấp phù hợp, nhả bàn đạp ga, đạp phanh chân với mức độ phù hợp để giảm tốc độ.",
+              "is_answer": 1
+            },
+            {
+              "text": "3- Nhả bàn đạp ga, tăng lên số cao, đạp phanh chân với mức độ phù hợp để giảm tốc độ.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 50,
+          "clone_from": "669dda3fb9926d2b780bae0b",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 1,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fbff3edb9bcba042470",
+          "id": "677d5fbff3edb9bcba042470",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi điều khiển ô tô qua đoạn đường ngập nước, người lái xe cần thực hiện các thao tác nào để đảm bảo an toàn?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 3,
+          "answer_as_hint": "",
+          "answers": [
+            2
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Tăng lên số cao, tăng ga và giảm ga liên tục để thay đổi tốc độ, giữ vững tay lái để ô tô vượt qua đoạn đường ngập nước.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Đạp ly hợp (côn) hết hành trình, tăng ga và giảm ga liên tục để thay đổi tốc độ, giữ vững tay lái để ô tô vượt qua đoạn đường ngập nước.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Quan sát, ước lượng độ ngập nước mà xe ôtô có thể vượt qua an toàn, về số thấp, giữ đều ga và giữ vững tay lái để ô tô vượt qua đoạn đường ngập nước.",
+              "is_answer": 1
+            }
+          ],
+          "feedback_true": "Điều khiển ô tô qua đường ngập nước thì về số thấp, giữ đều ga.",
+          "feedback_false": "Điều khiển ô tô qua đường ngập nước thì về số thấp, giữ đều ga.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Tăng lên số cao, tăng ga và giảm ga liên tục để thay đổi tốc độ, giữ vững tay lái để ô tô vượt qua đoạn đường ngập nước.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Đạp ly hợp (côn) hết hành trình, tăng ga và giảm ga liên tục để thay đổi tốc độ, giữ vững tay lái để ô tô vượt qua đoạn đường ngập nước.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Quan sát, ước lượng độ ngập nước mà xe ôtô có thể vượt qua an toàn, về số thấp, giữ đều ga và giữ vững tay lái để ô tô vượt qua đoạn đường ngập nước.",
+              "is_answer": 1
+            }
+          ],
+          "kpi_time": 67,
+          "clone_from": "669dda40b9926d2b780bae0c",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fbff3edb9bcba042471",
+          "id": "677d5fbff3edb9bcba042471",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi điều khiển ô tô tới gần xe chạy ngược chiều vào ban đêm, người lái xe cần thực hiện các thao tác nào để đảm bảo an toàn?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 3,
+          "answer_as_hint": "",
+          "answers": [
+            0
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Chuyển từ đèn chiếu xa sang đèn chiếu gần; không nhìn thẳng vào đèn của xe chạy ngược chiều mà nhìn chếch sang phía phải theo chiều chuyển động của xe mình.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Chuyển từ đèn chiếu gần sang đèn chiếu xa; không nhìn thẳng vào đèn của xe chạy ngược chiều mà nhìn chếch sang phía phải theo chiều chuyển động của xe mình.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Chuyển từ đèn chiếu xa sang đèn chiếu gần; nhìn thẳng vào đèn của xe chạy ngược chiều để tránh xe đảm bảo an toàn.",
+              "is_answer": 0
+            }
+          ],
+          "feedback_true": "Điều khiển ô tô ban đêm tới gần xe ngược chiều thì chuyển đèn sang chiếu gần, không nhìn vào đèn xe ngược chiều.",
+          "feedback_false": "Điều khiển ô tô ban đêm tới gần xe ngược chiều thì chuyển đèn sang chiếu gần, không nhìn vào đèn xe ngược chiều.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Chuyển từ đèn chiếu xa sang đèn chiếu gần; không nhìn thẳng vào đèn của xe chạy ngược chiều mà nhìn chếch sang phía phải theo chiều chuyển động của xe mình.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Chuyển từ đèn chiếu gần sang đèn chiếu xa; không nhìn thẳng vào đèn của xe chạy ngược chiều mà nhìn chếch sang phía phải theo chiều chuyển động của xe mình.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Chuyển từ đèn chiếu xa sang đèn chiếu gần; nhìn thẳng vào đèn của xe chạy ngược chiều để tránh xe đảm bảo an toàn.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 65,
+          "clone_from": "669dda41b9926d2b780bae0d",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fbff3edb9bcba042472",
+          "id": "677d5fbff3edb9bcba042472",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi điều khiển xe ô tô trên đường trơn cần chú ý những điểm gì để đảm bảo an toàn?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 2,
+          "answer_as_hint": "",
+          "answers": [
+            1
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Giữ vững tay lái cho xe đi đúng vệt bánh xe đi trước, sử dụng số thấp đi chậm, giữ đều ga, đánh lái ngoặt và phanh gấp khi cần thiết.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Giữ vững tay lái cho xe đi đúng vệt bánh xe đi trước, sử dụng số thấp đi chậm (số L hoặc 1, 2 đối với xe số tự động), gài cầu (nếu có), giữ đều ga, không lấy nhiều lái, không đánh lái ngoặt và phanh gấp.",
+              "is_answer": 1
+            }
+          ],
+          "feedback_true": "Điều khiển ô tô qua đường trơn thì không đánh lái ngoặt và phanh gấp.",
+          "feedback_false": "Điều khiển ô tô qua đường trơn thì không đánh lái ngoặt và phanh gấp.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Giữ vững tay lái cho xe đi đúng vệt bánh xe đi trước, sử dụng số thấp đi chậm, giữ đều ga, đánh lái ngoặt và phanh gấp khi cần thiết.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Giữ vững tay lái cho xe đi đúng vệt bánh xe đi trước, sử dụng số thấp đi chậm (số L hoặc 1, 2 đối với xe số tự động), gài cầu (nếu có), giữ đều ga, không lấy nhiều lái, không đánh lái ngoặt và phanh gấp.",
+              "is_answer": 1
+            }
+          ],
+          "kpi_time": 55,
+          "clone_from": "669dda42b9926d2b780bae0e",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fbff3edb9bcba042473",
+          "id": "677d5fbff3edb9bcba042473",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi động cơ ô tô đã khởi động, bảng đồng hồ xuất hiện ký hiệu như hình vẽ dưới đây, báo hiệu tình trạng như thế nào của xe ô tô?",
+          "content_image_files": [
+            {
+              "link": "https://static-cloud.lotuslms.com/static/daotaosathachlaixequangninh/2024/06/07/ad/666128088c341661a20429ad/6662211d17248c03b3015580.png"
+            }
+          ],
+          "avatar": "https://static-cloud.lotuslms.com/static/daotaosathachlaixequangninh/2024/06/07/ad/666128088c341661a20429ad/6662211d17248c03b3015580.png",
+          "tpl_type": "mc_answer_text",
+          "sw": 3,
+          "answer_as_hint": "",
+          "answers": [
+            0
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Phanh tay đang hãm hoặc thiếu dầu phanh.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Nhiệt độ nước làm mát quá mức cho phép.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Cửa xe đang mở.",
+              "is_answer": 0
+            }
+          ],
+          "feedback_true": "BRAKE thì phanh tay đang hãm hoặc thiếu dầu phanh.",
+          "feedback_false": "BRAKE thì phanh tay đang hãm hoặc thiếu dầu phanh.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Phanh tay đang hãm hoặc thiếu dầu phanh.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Nhiệt độ nước làm mát quá mức cho phép.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Cửa xe đang mở.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 32,
+          "clone_from": "669dda42b9926d2b780bae0f",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fc0f3edb9bcba042474",
+          "id": "677d5fc0f3edb9bcba042474",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi động cơ ô tô đã khởi động, bảng đồng hồ xuất hiện ký hiệu như hình vẽ dưới đây, báo hiệu tình trạng như thế nào của xe ô tô?",
+          "content_image_files": [
+            {
+              "link": "https://static-cloud.lotuslms.com/static/daotaosathachlaixequangninh/2024/06/07/ad/666128088c341661a20429ad/6662213a75f5b9a11206de67.png"
+            }
+          ],
+          "avatar": "https://static-cloud.lotuslms.com/static/daotaosathachlaixequangninh/2024/06/07/ad/666128088c341661a20429ad/6662213a75f5b9a11206de67.png",
+          "tpl_type": "mc_answer_text",
+          "sw": 4,
+          "answer_as_hint": "",
+          "answers": [
+            3
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Phanh tay đang hãm.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Thiếu dầu phanh.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Nhiệt độ nước làm mát tăng quá mức cho phép.",
+              "is_answer": 0
+            },
+            {
+              "text": "4- Dầu bôi trơn bị thiếu.",
+              "is_answer": 1
+            }
+          ],
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Phanh tay đang hãm.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Thiếu dầu phanh.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Nhiệt độ nước làm mát tăng quá mức cho phép.",
+              "is_answer": 0
+            },
+            {
+              "text": "4- Dầu bôi trơn bị thiếu.",
+              "is_answer": 1
+            }
+          ],
+          "kpi_time": 33,
+          "clone_from": "669dda43b9926d2b780bae10",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fc0f3edb9bcba042475",
+          "id": "677d5fc0f3edb9bcba042475",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi động cơ ô tô đã khởi động, bảng đồng hồ xuất hiện ký hiệu như hình vẽ dưới đây, báo hiệu tình trạng như thế nào của xe ô tô?",
+          "content_image_files": [
+            {
+              "link": "https://static-cloud.lotuslms.com/static/daotaosathachlaixequangninh/2024/06/07/ad/666128088c341661a20429ad/6662212c1f400538ca0fb21a.png"
+            }
+          ],
+          "avatar": "https://static-cloud.lotuslms.com/static/daotaosathachlaixequangninh/2024/06/07/ad/666128088c341661a20429ad/6662212c1f400538ca0fb21a.png",
+          "tpl_type": "mc_answer_text",
+          "sw": 4,
+          "answer_as_hint": "",
+          "answers": [
+            0
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Cửa xe đóng chưa chặt; hoặc có cửa xe chưa đóng.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Bộ nạp ắc quy gặp sự cố kỹ thuật.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Dầu bôi trơn bị thiếu.",
+              "is_answer": 0
+            },
+            {
+              "text": "4- Cả ý 2 và 3.",
+              "is_answer": 0
+            }
+          ],
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Cửa xe đóng chưa chặt; hoặc có cửa xe chưa đóng.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Bộ nạp ắc quy gặp sự cố kỹ thuật.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Dầu bôi trơn bị thiếu.",
+              "is_answer": 0
+            },
+            {
+              "text": "4- Cả ý 2 và 3.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 37,
+          "clone_from": "669dda44b9926d2b780bae11",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fc0f3edb9bcba042476",
+          "id": "677d5fc0f3edb9bcba042476",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi động cơ ô tô đã khởi động, bảng đồng hồ xuất hiện ký hiệu như hình vẽ dưới đây, báo hiệu tình trạng như thế nào của xe ô tô?",
+          "content_image_files": [
+            {
+              "link": "https://static-cloud.lotuslms.com/static/daotaosathachlaixequangninh/2024/06/07/ad/666128088c341661a20429ad/6662216dcf53cc1e74087819.png"
+            }
+          ],
+          "avatar": "https://static-cloud.lotuslms.com/static/daotaosathachlaixequangninh/2024/06/07/ad/666128088c341661a20429ad/6662216dcf53cc1e74087819.png",
+          "tpl_type": "mc_answer_text",
+          "sw": 4,
+          "answer_as_hint": "",
+          "answers": [
+            2
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Thiếu dầu phanh, phanh tay đang hãm.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Hệ thống túi khí an toàn gặp sự cố.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Lái xe và người ngồi ghế trước chưa cài dây an toàn.",
+              "is_answer": 1
+            },
+            {
+              "text": "4- Cửa đóng chưa chặt, có cửa chưa đóng.",
+              "is_answer": 0
+            }
+          ],
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Thiếu dầu phanh, phanh tay đang hãm.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Hệ thống túi khí an toàn gặp sự cố.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Lái xe và người ngồi ghế trước chưa cài dây an toàn.",
+              "is_answer": 1
+            },
+            {
+              "text": "4- Cửa đóng chưa chặt, có cửa chưa đóng.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 40,
+          "clone_from": "669dda45b9926d2b780bae12",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fc0f3edb9bcba042477",
+          "id": "677d5fc0f3edb9bcba042477",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi động cơ ô tô đã khởi động, bảng đồng hồ xuất hiện ký hiệu như hình vẽ dưới đây, báo hiệu tình trạng như thế nào của xe ô tô?",
+          "content_image_files": [
+            {
+              "link": "https://static-cloud.lotuslms.com/static/daotaosathachlaixequangninh/2024/06/07/ad/666128088c341661a20429ad/66622177ee74cb3e2506755d.png"
+            }
+          ],
+          "avatar": "https://static-cloud.lotuslms.com/static/daotaosathachlaixequangninh/2024/06/07/ad/666128088c341661a20429ad/66622177ee74cb3e2506755d.png",
+          "tpl_type": "mc_answer_text",
+          "sw": 4,
+          "answer_as_hint": "",
+          "answers": [
+            3
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Báo hiệu thiếu dầu phanh.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Áp suất lốp không đủ.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Đang hãm phanh tay.",
+              "is_answer": 0
+            },
+            {
+              "text": "4- Sắp hết nhiên liệu.",
+              "is_answer": 1
+            }
+          ],
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Báo hiệu thiếu dầu phanh.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Áp suất lốp không đủ.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Đang hãm phanh tay.",
+              "is_answer": 0
+            },
+            {
+              "text": "4- Sắp hết nhiên liệu.",
+              "is_answer": 1
+            }
+          ],
+          "kpi_time": 31,
+          "clone_from": "669dda46b9926d2b780bae13",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fc0f3edb9bcba042478",
+          "id": "677d5fc0f3edb9bcba042478",
+          "ntype": "question",
+          "type": 2,
+          "content": "Trong các loại nhiên liệu dưới đây, loại nhiên liệu nào giảm thiểu ô nhiễm môi trường?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 3,
+          "answer_as_hint": "",
+          "answers": [
+            1
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Xăng và dầu diesel.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Xăng sinh học và khí sinh học.",
+              "is_answer": 1
+            },
+            {
+              "text": "3- Cả ý 1 và ý 2.",
+              "is_answer": 0
+            }
+          ],
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Xăng và dầu diesel.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Xăng sinh học và khí sinh học.",
+              "is_answer": 1
+            },
+            {
+              "text": "3- Cả ý 1 và ý 2.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 23,
+          "clone_from": "669dda47b9926d2b780bae14",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fc0f3edb9bcba042479",
+          "id": "677d5fc0f3edb9bcba042479",
+          "ntype": "question",
+          "type": 2,
+          "content": "Các biện pháp tiết kiệm nhiên liệu khi chạy xe?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 3,
+          "answer_as_hint": "",
+          "answers": [
+            2
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Bảo dưỡng xe theo định kỳ và có kế hoạch lộ trình trước khi chạy xe.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Kiểm tra áp suất lốp theo quy định và chạy xe với tốc độ phù hợp với tình trạng mặt đường và mật độ giao thông trên đường.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Cả ý 1 và ý 2.",
+              "is_answer": 1
+            }
+          ],
+          "feedback_true": "Để tiết kiệm nhiên liệu thì bảo dưỡng định kỳ và kiểm tra áp suất lốp.",
+          "feedback_false": "Để tiết kiệm nhiên liệu thì bảo dưỡng định kỳ và kiểm tra áp suất lốp.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Bảo dưỡng xe theo định kỳ và có kế hoạch lộ trình trước khi chạy xe.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Kiểm tra áp suất lốp theo quy định và chạy xe với tốc độ phù hợp với tình trạng mặt đường và mật độ giao thông trên đường.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Cả ý 1 và ý 2.",
+              "is_answer": 1
+            }
+          ],
+          "kpi_time": 36,
+          "clone_from": "669dda47b9926d2b780bae15",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fc0f3edb9bcba04247a",
+          "id": "677d5fc0f3edb9bcba04247a",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi đã đỗ xe ô tô sát lề đường bên phải, người lái xe phải thực hiện các thao tác nào dưới đây khi mở cửa xuống xe để đảm bảo an toàn?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 3,
+          "answer_as_hint": "",
+          "answers": [
+            0
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Quan sát tình hình giao thông phía sau, mở hé cánh cửa, nếu đảm bảo an toàn thì mở cửa ở mức cần thiết để xuống xe ô tô.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Mở cánh cửa và quan sát tình hình giao thông phía trước, nếu đảm bảo an toàn thì mở cửa ở mức cần thiết để xuống xe ô tô.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Mở cánh cửa hết hành trình và nhanh chóng ra khỏi xe ô tô.",
+              "is_answer": 0
+            }
+          ],
+          "feedback_true": "Mở cửa xe thì quan sát rồi mới mở hé cánh cửa.",
+          "feedback_false": "Mở cửa xe thì quan sát rồi mới mở hé cánh cửa.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Quan sát tình hình giao thông phía sau, mở hé cánh cửa, nếu đảm bảo an toàn thì mở cửa ở mức cần thiết để xuống xe ô tô.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Mở cánh cửa và quan sát tình hình giao thông phía trước, nếu đảm bảo an toàn thì mở cửa ở mức cần thiết để xuống xe ô tô.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Mở cánh cửa hết hành trình và nhanh chóng ra khỏi xe ô tô.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 59,
+          "clone_from": "669dda48b9926d2b780bae16",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 1,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fc0f3edb9bcba04247b",
+          "id": "677d5fc0f3edb9bcba04247b",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi lái xe ô tô qua đường sắt không có rào chắn, không có người điều khiển giao thông, người lái xe phải xử lý như thế nào để đảm bảo an toàn?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 2,
+          "answer_as_hint": "",
+          "answers": [
+            0
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Tạm dừng xe tại vị trí cách đường sắt tối thiểu 5 mét, hạ kính cửa, tắt các thiết bị âm thanh trên xe, quan sát, nếu không có tàu chạy qua, về số thấp, tăng ga nhẹ để tránh động cơ chết máy cho xe vượt qua.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Tại vị trí cách đường sắt tối thiểu 5 mét quan sát phía trước, nếu tàu còn cách xa, tăng số cao, tăng ga để cho xe nhanh chóng vượt qua đường sắt.",
+              "is_answer": 0
+            }
+          ],
+          "feedback_true": "Lái xe ô tô qua đường sắt không rào chắn thì cách 5 mét hạ kính cửa, tắt âm thanh, quan sát.",
+          "feedback_false": "Lái xe ô tô qua đường sắt không rào chắn thì cách 5 mét hạ kính cửa, tắt âm thanh, quan sát.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Tạm dừng xe tại vị trí cách đường sắt tối thiểu 5 mét, hạ kính cửa, tắt các thiết bị âm thanh trên xe, quan sát, nếu không có tàu chạy qua, về số thấp, tăng ga nhẹ để tránh động cơ chết máy cho xe vượt qua.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Tại vị trí cách đường sắt tối thiểu 5 mét quan sát phía trước, nếu tàu còn cách xa, tăng số cao, tăng ga để cho xe nhanh chóng vượt qua đường sắt.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 63,
+          "clone_from": "669dda49b9926d2b780bae17",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fc1f3edb9bcba04247c",
+          "id": "677d5fc1f3edb9bcba04247c",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi lái xe ô tô qua đường sắt không có rào chắn, không có người điều khiển giao thông, người lái xe thực hiện thao tác: tạm dừng xe tại vị trí cách đường sắt tối thiểu 5 mét, hạ kính cửa, tắt các thiết bị âm thanh trên xe, quan sát và nếu không có tàu chạy qua thì về số thấp, tăng ga nhẹ để tránh động cơ chết máy cho xe vượt qua để đảm bảo an toàn là đúng hay không?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 3,
+          "answer_as_hint": "",
+          "answers": [
+            1
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Không đúng.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Đúng.",
+              "is_answer": 1
+            },
+            {
+              "text": "3- Không cần thiết, vì nếu nhìn thấy tàu còn cách xa, người lái xe có thể tăng số cao, tăng ga để cho xe nhanh chóng vượt qua đường sắt.",
+              "is_answer": 0
+            }
+          ],
+          "feedback_true": "Lái xe ô tô qua đường sắt không rào chắn thì cách 5 mét hạ kính cửa, tắt âm thanh, quan sát.",
+          "feedback_false": "Lái xe ô tô qua đường sắt không rào chắn thì cách 5 mét hạ kính cửa, tắt âm thanh, quan sát.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Không đúng.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Đúng.",
+              "is_answer": 1
+            },
+            {
+              "text": "3- Không cần thiết, vì nếu nhìn thấy tàu còn cách xa, người lái xe có thể tăng số cao, tăng ga để cho xe nhanh chóng vượt qua đường sắt.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 65,
+          "clone_from": "669dda4ab9926d2b780bae18",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fc1f3edb9bcba04247d",
+          "id": "677d5fc1f3edb9bcba04247d",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi điều khiển ô tô có hộp số tự động đi vào đường trơn trượt, lầy lội, người lái xe phải xử lý như thế nào để đảm bảo an toàn trong các trường hợp dưới đây?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 3,
+          "answer_as_hint": "",
+          "answers": [
+            0
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Về số thấp, kết hợp phanh chân để giảm tốc độ.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Giữ nguyên tay số D, kết hợp phanh tay để giảm tốc độ.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Về số N (số 0), kết hợp phanh chân để giảm tốc độ.",
+              "is_answer": 0
+            }
+          ],
+          "feedback_true": "Điều khiển xe tự động vào đường trơn trượt thì về số thấp, kết hợp phanh chân.",
+          "feedback_false": "Điều khiển xe tự động vào đường trơn trượt thì về số thấp, kết hợp phanh chân.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Về số thấp, kết hợp phanh chân để giảm tốc độ.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Giữ nguyên tay số D, kết hợp phanh tay để giảm tốc độ.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Về số N (số 0), kết hợp phanh chân để giảm tốc độ.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 43,
+          "clone_from": "669dda4bb9926d2b780bae19",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 1,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fc1f3edb9bcba04247e",
+          "id": "677d5fc1f3edb9bcba04247e",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi động cơ ô tô đã khởi động, muốn điều chỉnh ghế của người lái, người lái xe phải điều chỉnh cần số ở vị trí nào?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 3,
+          "answer_as_hint": "",
+          "answers": [
+            0
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Vị trí N hoặc vị trí P hoặc số 0.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Vị trí D hoặc số 1.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Vị trí R.",
+              "is_answer": 0
+            }
+          ],
+          "feedback_true": "Điều chỉnh ghế thì cần số ở P hoặc N.",
+          "feedback_false": "Điều chỉnh ghế thì cần số ở P hoặc N.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Vị trí N hoặc vị trí P hoặc số 0.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Vị trí D hoặc số 1.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Vị trí R.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 29,
+          "clone_from": "669dda4cb9926d2b780bae1a",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fc1f3edb9bcba04247f",
+          "id": "677d5fc1f3edb9bcba04247f",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi điều khiển ô tô có hộp số tự động, người lái xe sử dụng chân như thế nào là đúng để bảo đảm an toàn?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 3,
+          "answer_as_hint": "",
+          "answers": [
+            0
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Không sử dụng chân trái; chân phải điều khiển bàn đạp phanh và bàn đạp ga.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Chân trái điều khiển bàn đạp phanh, chân phải điều khiển bàn đạp ga.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Không sử dụng chân phải; chân trái điều khiển bàn đạp phanh và bàn đạp ga.",
+              "is_answer": 0
+            }
+          ],
+          "feedback_true": "Điều khiển xe số tự động không sử dụng chân trái.",
+          "feedback_false": "Điều khiển xe số tự động không sử dụng chân trái.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Không sử dụng chân trái; chân phải điều khiển bàn đạp phanh và bàn đạp ga.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Chân trái điều khiển bàn đạp phanh, chân phải điều khiển bàn đạp ga.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Không sử dụng chân phải; chân trái điều khiển bàn đạp phanh và bàn đạp ga.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 42,
+          "clone_from": "669dda4cb9926d2b780bae1b",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fc1f3edb9bcba042480",
+          "id": "677d5fc1f3edb9bcba042480",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi tầm nhìn bị hạn chế bởi sương mù hoặc mưa to, người lái xe phải thực hiện các thao tác nào?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 3,
+          "answer_as_hint": "",
+          "answers": [
+            1
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Tăng tốc độ, chạy gần xe trước, nhìn đèn hậu để định hướng.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Giảm tốc độ, chạy cách xa xe trước với khoảng cách an toàn, bật đèn sương mù và đèn chiếu gần.",
+              "is_answer": 1
+            },
+            {
+              "text": "3- Tăng tốc độ, bật đèn pha vượt qua xe chạy trước.",
+              "is_answer": 0
+            }
+          ],
+          "feedback_true": "Tầm nhìn bị hạn chế thì giảm tốc độ.",
+          "feedback_false": "Tầm nhìn bị hạn chế thì giảm tốc độ.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Tăng tốc độ, chạy gần xe trước, nhìn đèn hậu để định hướng.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Giảm tốc độ, chạy cách xa xe trước với khoảng cách an toàn, bật đèn sương mù và đèn chiếu gần.",
+              "is_answer": 1
+            },
+            {
+              "text": "3- Tăng tốc độ, bật đèn pha vượt qua xe chạy trước.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 40,
+          "clone_from": "669dda4db9926d2b780bae1c",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 1,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fc1f3edb9bcba042481",
+          "id": "677d5fc1f3edb9bcba042481",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi đèn pha của xe đi ngược chiều gây chói mắt, làm giảm khả năng quan sát trên đường, người lái xe xử lý như thế nào để đảm bảo an toàn?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 3,
+          "answer_as_hint": "",
+          "answers": [
+            0
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Giảm tốc độ, nếu cần thiết có thể dừng xe lại.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Bật đèn pha chiếu xa và giữ nguyên tốc độ.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Tăng tốc độ, bật đèn pha đối diện xe phía trước.",
+              "is_answer": 0
+            }
+          ],
+          "feedback_true": "Đèn pha xe ngược chiều gây chói mắt thì giảm tốc độ.",
+          "feedback_false": "Đèn pha xe ngược chiều gây chói mắt thì giảm tốc độ.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Giảm tốc độ, nếu cần thiết có thể dừng xe lại.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Bật đèn pha chiếu xa và giữ nguyên tốc độ.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Tăng tốc độ, bật đèn pha đối diện xe phía trước.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 38,
+          "clone_from": "669dda4eb9926d2b780bae1d",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fc1f3edb9bcba042482",
+          "id": "677d5fc1f3edb9bcba042482",
+          "ntype": "question",
+          "type": 2,
+          "content": "Để đạt được hiệu quả phanh cao nhất, người lái xe mô tô phải sử dụng các kỹ năng như thế nào dưới đây?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 3,
+          "answer_as_hint": "",
+          "answers": [
+            2
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Sử dụng phanh trước.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Sử dụng phanh sau.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Giảm hết ga; sử dụng đồng thời cả phanh sau và phanh trước.",
+              "is_answer": 1
+            }
+          ],
+          "feedback_true": "Khi phanh xe mô tô thì giảm hết ga.",
+          "feedback_false": "Khi phanh xe mô tô thì giảm hết ga.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Sử dụng phanh trước.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Sử dụng phanh sau.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Giảm hết ga; sử dụng đồng thời cả phanh sau và phanh trước.",
+              "is_answer": 1
+            }
+          ],
+          "kpi_time": 29,
+          "clone_from": "669dda4fb9926d2b780bae1e",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fc1f3edb9bcba042483",
+          "id": "677d5fc1f3edb9bcba042483",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi lái xe ô tô trên mặt đường có nhiều “ổ gà”, người lái xe phải thực hiện thao tác như thế nào để đảm bảo an toàn?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 3,
+          "answer_as_hint": "",
+          "answers": [
+            0
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Giảm tốc độ, về số thấp và giữ đều ga.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Tăng tốc độ cho xe lướt qua nhanh.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Tăng tốc độ, đánh lái liên tục để tránh “ổ gà”.",
+              "is_answer": 0
+            }
+          ],
+          "feedback_true": "Lái xe trên đường có nhiều ổ gà thì giảm tốc độ.",
+          "feedback_false": "Lái xe trên đường có nhiều ổ gà thì giảm tốc độ.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Giảm tốc độ, về số thấp và giữ đều ga.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Tăng tốc độ cho xe lướt qua nhanh.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Tăng tốc độ, đánh lái liên tục để tránh “ổ gà”.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 35,
+          "clone_from": "669dda50b9926d2b780bae1f",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fc1f3edb9bcba042484",
+          "id": "677d5fc1f3edb9bcba042484",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi điều khiển ô tô gặp mưa to hoặc sương mù, người lái xe phải làm gì để đảm bảo an toàn?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 3,
+          "answer_as_hint": "",
+          "answers": [
+            0
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Bật đèn chiếu gần và đèn vàng, điều khiển gạt nước, điều khiển ô tô đi với tốc độ chậm để có thể quan sát được; tìm chỗ an toàn dừng xe, bật đèn dừng khẩn cấp báo hiệu cho các xe khác biết.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Bật đèn chiếu xa và đèn vàng, điều khiển gạt nước, tăng tốc độ điều khiển ô tô qua khỏi khu vực mưa hoặc sương mù.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Tăng tốc độ, bật đèn pha vượt qua xe chạy phía trước.",
+              "is_answer": 0
+            }
+          ],
+          "feedback_true": "Điều khiển ô tô gặp mưa to thì chạy tốc độ chậm.",
+          "feedback_false": "Điều khiển ô tô gặp mưa to thì chạy tốc độ chậm.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Bật đèn chiếu gần và đèn vàng, điều khiển gạt nước, điều khiển ô tô đi với tốc độ chậm để có thể quan sát được; tìm chỗ an toàn dừng xe, bật đèn dừng khẩn cấp báo hiệu cho các xe khác biết.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Bật đèn chiếu xa và đèn vàng, điều khiển gạt nước, tăng tốc độ điều khiển ô tô qua khỏi khu vực mưa hoặc sương mù.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Tăng tốc độ, bật đèn pha vượt qua xe chạy phía trước.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 58,
+          "clone_from": "669dda51b9926d2b780bae20",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fc1f3edb9bcba042485",
+          "id": "677d5fc1f3edb9bcba042485",
+          "ntype": "question",
+          "type": 2,
+          "content": "Điều khiển xe ô tô trong trời mưa, người lái xe phải xử lý như thế nào để đảm bảo an toàn?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 3,
+          "answer_as_hint": "",
+          "answers": [
+            0
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Giảm tốc độ, tăng cường quan sát, không nên phanh gấp, không nên tăng ga hay đánh vô lăng đột ngột, bật đèn pha gần, mở chế độ gạt nước ở chế độ phù hợp để đảm bảo quan sát.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Phanh gấp khi xe đi vào vũng nước và tăng ga ngay sau khi ra khỏi vũng nước.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Bật đèn chiếu xa, tăng tốc độ điều khiển ô tô qua khỏi khu vực mưa.",
+              "is_answer": 0
+            }
+          ],
+          "feedback_true": "Điều khiển ô tô trong trời mưa thì giảm tốc độ.",
+          "feedback_false": "Điều khiển ô tô trong trời mưa thì giảm tốc độ.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Giảm tốc độ, tăng cường quan sát, không nên phanh gấp, không nên tăng ga hay đánh vô lăng đột ngột, bật đèn pha gần, mở chế độ gạt nước ở chế độ phù hợp để đảm bảo quan sát.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Phanh gấp khi xe đi vào vũng nước và tăng ga ngay sau khi ra khỏi vũng nước.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Bật đèn chiếu xa, tăng tốc độ điều khiển ô tô qua khỏi khu vực mưa.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 54,
+          "clone_from": "669dda51b9926d2b780bae21",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fc2f3edb9bcba042486",
+          "id": "677d5fc2f3edb9bcba042486",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi lùi xe, người lái xe phải xử lý như thế nào để bảo đảm an toàn giao thông?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 3,
+          "answer_as_hint": "",
+          "answers": [
+            0
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Quan sát bên trái, bên phải, phía sau xe, có tín hiệu cần thiết và lùi xe với tốc độ phù hợp.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Quan sát phía trước xe và lùi xe với tốc độ nhanh.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Quan sát bên trái và phía trước của xe và lùi xe với tốc độ nhanh.",
+              "is_answer": 0
+            }
+          ],
+          "feedback_true": "Lùi xe thì cần quan sát phía sau xe.",
+          "feedback_false": "Lùi xe thì cần quan sát phía sau xe.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Quan sát bên trái, bên phải, phía sau xe, có tín hiệu cần thiết và lùi xe với tốc độ phù hợp.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Quan sát phía trước xe và lùi xe với tốc độ nhanh.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Quan sát bên trái và phía trước của xe và lùi xe với tốc độ nhanh.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 41,
+          "clone_from": "669dda52b9926d2b780bae22",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fc2f3edb9bcba042487",
+          "id": "677d5fc2f3edb9bcba042487",
+          "ntype": "question",
+          "type": 2,
+          "content": "Điều khiển xe ô tô trong khu vực đông dân cư cần lưu ý điều gì dưới đây?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 3,
+          "answer_as_hint": "",
+          "answers": [
+            2
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Giảm tốc độ đến mức an toàn, quan sát, nhường đường cho người đi bộ; giữ khoảng cách an toàn với các xe phía trước.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Đi đúng làn đường quy định; chỉ được chuyển làn đường ở nơi cho phép, nhưng phải quan sát.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Cả ý 1 và ý 2.",
+              "is_answer": 1
+            }
+          ],
+          "feedback_true": "Điều khiển xe ô tô trong khu vực đông dân cư thì giảm tốc độ và đi đúng làn đường.",
+          "feedback_false": "Điều khiển xe ô tô trong khu vực đông dân cư thì giảm tốc độ và đi đúng làn đường.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Giảm tốc độ đến mức an toàn, quan sát, nhường đường cho người đi bộ; giữ khoảng cách an toàn với các xe phía trước.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Đi đúng làn đường quy định; chỉ được chuyển làn đường ở nơi cho phép, nhưng phải quan sát.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Cả ý 1 và ý 2.",
+              "is_answer": 1
+            }
+          ],
+          "kpi_time": 40,
+          "clone_from": "669dda53b9926d2b780bae23",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fc2f3edb9bcba042488",
+          "id": "677d5fc2f3edb9bcba042488",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi điều khiển xe ô tô nhập vào đường cao tốc người lái xe cần thực hiện như thế nào để bảo đảm an toàn giao thông?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 3,
+          "answer_as_hint": "",
+          "answers": [
+            0
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Quan sát, phát tín hiệu và lái xe nhập vào làn đường tăng tốc, nhường đường cho các xe đang chạy trên đường cao tốc, khi đủ điều kiện an toàn thì tăng tốc độ cho xe nhập vào làn đường cao tốc.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Phát tín hiệu, quan sát các xe đang chạy phía trước, nếu đảm bảo các điều kiện an toàn thì tăng tốc độ cho xe nhập ngay vào làn đường cao tốc.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Phát tín hiệu và lái xe nhập vào làn đường tăng tốc, quan sát các xe phía sau đang chạy trên đường cao tốc, khi đủ điều kiện an toàn thì giảm tốc độ, từ từ cho xe nhập vào làn đường cao tốc.",
+              "is_answer": 0
+            }
+          ],
+          "feedback_true": "Khi lái xe nhập vào làn đường cao tốc thì nhường đường cho xe đang trên đường cao tốc.",
+          "feedback_false": "Khi lái xe nhập vào làn đường cao tốc thì nhường đường cho xe đang trên đường cao tốc.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Quan sát, phát tín hiệu và lái xe nhập vào làn đường tăng tốc, nhường đường cho các xe đang chạy trên đường cao tốc, khi đủ điều kiện an toàn thì tăng tốc độ cho xe nhập vào làn đường cao tốc.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Phát tín hiệu, quan sát các xe đang chạy phía trước, nếu đảm bảo các điều kiện an toàn thì tăng tốc độ cho xe nhập ngay vào làn đường cao tốc.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Phát tín hiệu và lái xe nhập vào làn đường tăng tốc, quan sát các xe phía sau đang chạy trên đường cao tốc, khi đủ điều kiện an toàn thì giảm tốc độ, từ từ cho xe nhập vào làn đường cao tốc.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 79,
+          "clone_from": "669dda54b9926d2b780bae24",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fc2f3edb9bcba042489",
+          "id": "677d5fc2f3edb9bcba042489",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi điều khiển xe ô tô ra khỏi đường cao tốc người lái xe cần thực hiện như thế nào để bảo đảm an toàn giao thông?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 2,
+          "answer_as_hint": "",
+          "answers": [
+            0
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Quan sát phía trước để tìm biển báo chỉ dẫn “Lối ra đường cao tốc”, kiểm tra tình trạng giao thông phía sau và bên phải, nếu đảm bảo điều kiện an toàn thì phát tín hiệu và điều khiển xe chuyển dần sang làn đường giảm tốc và ra khỏi đường cao tốc.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Quan sát về phía trước để tìm biển báo chỉ dẫn “Lối ra đường cao tốc”, trường hợp vượt qua “Lối ra đường cao tốc” thì phát tín hiệu, di chuyển sang làn đường giảm tốc và lùi xe quay trở lại.",
+              "is_answer": 0
+            }
+          ],
+          "feedback_true": "Điều khiển xe ra khỏi làn cao tốc thì không được phép lùi xe, nên đáp án 2 là sai.",
+          "feedback_false": "Điều khiển xe ra khỏi làn cao tốc thì không được phép lùi xe, nên đáp án 2 là sai.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Quan sát phía trước để tìm biển báo chỉ dẫn “Lối ra đường cao tốc”, kiểm tra tình trạng giao thông phía sau và bên phải, nếu đảm bảo điều kiện an toàn thì phát tín hiệu và điều khiển xe chuyển dần sang làn đường giảm tốc và ra khỏi đường cao tốc.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Quan sát về phía trước để tìm biển báo chỉ dẫn “Lối ra đường cao tốc”, trường hợp vượt qua “Lối ra đường cao tốc” thì phát tín hiệu, di chuyển sang làn đường giảm tốc và lùi xe quay trở lại.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 67,
+          "clone_from": "669dda55b9926d2b780bae25",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fc2f3edb9bcba04248a",
+          "id": "677d5fc2f3edb9bcba04248a",
+          "ntype": "question",
+          "type": 2,
+          "content": "Người lái xe được dừng xe, đỗ xe trên làn dừng khẩn cấp của đường cao tốc trong trường hợp nào dưới đây?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 3,
+          "answer_as_hint": "",
+          "answers": [
+            0
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Xe gặp sự cố, tai nạn, hoặc trường hợp khẩn cấp không thể di chuyển bình thường.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Để nghỉ ngơi, đi vệ sinh, chụp ảnh, làm việc riêng...",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Cả ý 1 và ý 2.",
+              "is_answer": 0
+            }
+          ],
+          "feedback_true": "Trên cao tốc chỉ được dừng xe ở làn khẩn cấp khi xe gặp sự cố.",
+          "feedback_false": "Trên cao tốc chỉ được dừng xe ở làn khẩn cấp khi xe gặp sự cố.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Xe gặp sự cố, tai nạn, hoặc trường hợp khẩn cấp không thể di chuyển bình thường.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Để nghỉ ngơi, đi vệ sinh, chụp ảnh, làm việc riêng...",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Cả ý 1 và ý 2.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 35,
+          "clone_from": "669dda56b9926d2b780bae26",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 1,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fc2f3edb9bcba04248b",
+          "id": "677d5fc2f3edb9bcba04248b",
+          "ntype": "question",
+          "type": 2,
+          "content": "Trong trường hợp bất khả kháng, khi dừng xe, đỗ xe trên làn dừng khẩn cấp của đường cao tốc người lái xe phải xử lý như thế nào là đúng quy tắc giao thông?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 4,
+          "answer_as_hint": "",
+          "answers": [
+            3
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Bật đèn cảnh báo sự cố, di chuyển phương tiện đến vị trí sát lề đường",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Sử dụng các thiết bị cảnh báo như chóp nón, biển báo, đèn chớp... đặt phía sau xe để cảnh báo các phương tiện.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Gọi số điện thoại khẩn cấp của đường cao tốc để được hỗ trợ nếu xe gặp sự cố, tai nạn, hoặc các trường hợp khẩn cấp không thể di chuyển bình thường.",
+              "is_answer": 0
+            },
+            {
+              "text": "4- Tất cả các ý nêu trên.",
+              "is_answer": 1
+            }
+          ],
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Bật đèn cảnh báo sự cố, di chuyển phương tiện đến vị trí sát lề đường",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Sử dụng các thiết bị cảnh báo như chóp nón, biển báo, đèn chớp... đặt phía sau xe để cảnh báo các phương tiện.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Gọi số điện thoại khẩn cấp của đường cao tốc để được hỗ trợ nếu xe gặp sự cố, tai nạn, hoặc các trường hợp khẩn cấp không thể di chuyển bình thường.",
+              "is_answer": 0
+            },
+            {
+              "text": "4- Tất cả các ý nêu trên.",
+              "is_answer": 1
+            }
+          ],
+          "kpi_time": 64,
+          "clone_from": "669dda57b9926d2b780bae27",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fc2f3edb9bcba04248c",
+          "id": "677d5fc2f3edb9bcba04248c",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi điều khiển ô tô xuống đường dốc dài, độ dốc cao, người lái xe số tự động cần thực hiện các thao tác nào dưới đây để đảm bảo an toàn?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 2,
+          "answer_as_hint": "",
+          "answers": [
+            0
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Nhả bàn đạp ga, về số thấp (sử dụng số L hoặc 1, 2), đạp phanh chân với mức độ phù hợp để giảm tốc độ.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Nhả bàn đạp ga, về số không (N) đạp phanh chân và kéo phanh tay để giảm tốc độ.",
+              "is_answer": 0
+            }
+          ],
+          "feedback_true": "Điều khiển ô tô số tự động xuống dốc dài thì nhả bàn đạp ga, về số thấp.",
+          "feedback_false": "Điều khiển ô tô số tự động xuống dốc dài thì nhả bàn đạp ga, về số thấp.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Nhả bàn đạp ga, về số thấp (sử dụng số L hoặc 1, 2), đạp phanh chân với mức độ phù hợp để giảm tốc độ.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Nhả bàn đạp ga, về số không (N) đạp phanh chân và kéo phanh tay để giảm tốc độ.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 44,
+          "clone_from": "669dda57b9926d2b780bae28",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 1,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fc2f3edb9bcba04248d",
+          "id": "677d5fc2f3edb9bcba04248d",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi đi từ đường nhánh ra đường chính, người lái xe phải xử lý như nào là đúng quy tắc giao thông?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 3,
+          "answer_as_hint": "",
+          "answers": [
+            0
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Giảm tốc độ, nhường đường cho xe trên đường chính từ bất kì hướng nào tới.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Nháy đèn, bấm còi để xe đi trên đường chính biết và tăng tốc độ cho xe đi ra đường chính.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Quan sát xe đang đi trên đường chính, nếu là xe có kích thước lớn hơn thì nhường đường, xe có kích thước nhỏ hơn thì tăng tốc độ cho xe đi ra đường chính.",
+              "is_answer": 0
+            }
+          ],
+          "feedback_true": "Đi từ đường nhánh ra đường chính thì giảm tốc độ, nhường đường cho xe trên đường chính.",
+          "feedback_false": "Đi từ đường nhánh ra đường chính thì giảm tốc độ, nhường đường cho xe trên đường chính.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Giảm tốc độ, nhường đường cho xe trên đường chính từ bất kì hướng nào tới.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Nháy đèn, bấm còi để xe đi trên đường chính biết và tăng tốc độ cho xe đi ra đường chính.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Quan sát xe đang đi trên đường chính, nếu là xe có kích thước lớn hơn thì nhường đường, xe có kích thước nhỏ hơn thì tăng tốc độ cho xe đi ra đường chính.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 53,
+          "clone_from": "669dda58b9926d2b780bae29",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 1,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fc2f3edb9bcba04248e",
+          "id": "677d5fc2f3edb9bcba04248e",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi đang lái xe mô tô và ô tô, nếu có nhu cầu sử dụng điện thoại để nhắn tin hoặc gọi điện, người lái xe phải thực hiện như thế nào trong các tình huống nêu dưới đây?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 3,
+          "answer_as_hint": "",
+          "answers": [
+            1
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Giảm tốc độ để đảm bảo an toàn với xe phía trước và sử dụng điện thoại để liên lạc.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Giảm tốc độ để dừng xe ở nơi cho phép dừng xe sau đó sử dụng điện thoại để liên lạc.",
+              "is_answer": 1
+            },
+            {
+              "text": "3- Tăng tốc độ để cách xa xe phía sau và sử dụng điện thoại để liên lạc.",
+              "is_answer": 0
+            }
+          ],
+          "feedback_true": "Khi cần nghe điện thoại thì giảm tốc độ và dừng xe ở nơi cho phép dừng xe.",
+          "feedback_false": "Khi cần nghe điện thoại thì giảm tốc độ và dừng xe ở nơi cho phép dừng xe.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Giảm tốc độ để đảm bảo an toàn với xe phía trước và sử dụng điện thoại để liên lạc.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Giảm tốc độ để dừng xe ở nơi cho phép dừng xe sau đó sử dụng điện thoại để liên lạc.",
+              "is_answer": 1
+            },
+            {
+              "text": "3- Tăng tốc độ để cách xa xe phía sau và sử dụng điện thoại để liên lạc.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 55,
+          "clone_from": "669dda59b9926d2b780bae2a",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 1,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fc3f3edb9bcba04248f",
+          "id": "677d5fc3f3edb9bcba04248f",
+          "ntype": "question",
+          "type": 2,
+          "content": "Những thói quen nào dưới đây khi điều khiển xe mô tô tay ga tham gia giao thông dễ gây tai nạn nguy hiểm?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 3,
+          "answer_as_hint": "",
+          "answers": [
+            2
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Sử dụng còi.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Phanh đồng thời cả phanh trước và phanh sau.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Chỉ sử dụng phanh trước.",
+              "is_answer": 1
+            }
+          ],
+          "feedback_true": "Xe mô tô tay ga chỉ sử dụng phanh trước thì rất nguy hiểm.",
+          "feedback_false": "Xe mô tô tay ga chỉ sử dụng phanh trước thì rất nguy hiểm.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Sử dụng còi.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Phanh đồng thời cả phanh trước và phanh sau.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Chỉ sử dụng phanh trước.",
+              "is_answer": 1
+            }
+          ],
+          "kpi_time": 27,
+          "clone_from": "669dda5ab9926d2b780bae2b",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fc3f3edb9bcba042490",
+          "id": "677d5fc3f3edb9bcba042490",
+          "ntype": "question",
+          "type": 2,
+          "content": "Người ngồi trên xe ô tô cần thực hiện những thao tác mở cửa như thế nào để xuống xe một cách an toàn?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 2,
+          "answer_as_hint": "",
+          "answers": [
+            0
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Quan sát gương chiếu hậu hoặc xoay người quan sát phía sau để phát hiện các phương tiện đang di chuyển tới gần, khi đủ điều kiện an toàn, dùng tay cách xa cửa hơn mở hé cửa, sau đó mở ở mức cần thiết để xuống xe.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Quan sát tình hình giao thông phía trước, không cần quan sát phía sau và bên mở cửa; mở cánh cửa hết hành trình và nhanh chóng ra khỏi xe ô tô.",
+              "is_answer": 0
+            }
+          ],
+          "feedback_true": "Mở cửa xe thì quan sát rồi mới mở hé cánh cửa.",
+          "feedback_false": "Mở cửa xe thì quan sát rồi mới mở hé cánh cửa.",
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Quan sát gương chiếu hậu hoặc xoay người quan sát phía sau để phát hiện các phương tiện đang di chuyển tới gần, khi đủ điều kiện an toàn, dùng tay cách xa cửa hơn mở hé cửa, sau đó mở ở mức cần thiết để xuống xe.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Quan sát tình hình giao thông phía trước, không cần quan sát phía sau và bên mở cửa; mở cánh cửa hết hành trình và nhanh chóng ra khỏi xe ô tô.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 58,
+          "clone_from": "669dda5bb9926d2b780bae2c",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fc3f3edb9bcba042491",
+          "id": "677d5fc3f3edb9bcba042491",
+          "ntype": "question",
+          "type": 2,
+          "content": "Khi điều khiển xe mô tô quay đầu người lái xe cần thực hiện như thế nào để đảm bảo an toàn?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 4,
+          "answer_as_hint": "",
+          "answers": [
+            3
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Bật tín hiệu báo rẽ trước khi quay đầu, từ từ giảm tốc độ đến mức có thể dừng lại.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Chỉ quay đầu xe tại những nơi được phép quay đầu.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Quan sát an toàn các phương tiện tới từ phía trước, phía sau, hai bên đồng thời nhường đường cho xe từ bên phải và phía trước đi tới.",
+              "is_answer": 0
+            },
+            {
+              "text": "4- Tất cả các ý nêu trên.",
+              "is_answer": 1
+            }
+          ],
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Bật tín hiệu báo rẽ trước khi quay đầu, từ từ giảm tốc độ đến mức có thể dừng lại.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Chỉ quay đầu xe tại những nơi được phép quay đầu.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Quan sát an toàn các phương tiện tới từ phía trước, phía sau, hai bên đồng thời nhường đường cho xe từ bên phải và phía trước đi tới.",
+              "is_answer": 0
+            },
+            {
+              "text": "4- Tất cả các ý nêu trên.",
+              "is_answer": 1
+            }
+          ],
+          "kpi_time": 51,
+          "clone_from": "669dda5bb9926d2b780bae2d",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fc3f3edb9bcba042492",
+          "id": "677d5fc3f3edb9bcba042492",
+          "ntype": "question",
+          "type": 2,
+          "content": "Tay ga trên xe mô tô hai bánh có tác dụng gì trong các trường hợp dưới đây?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 4,
+          "answer_as_hint": "",
+          "answers": [
+            3
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Để điều khiển xe chạy về phía trước.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Để điều tiết công suất động cơ qua đó điều khiển tốc độ của xe.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Để điều khiển xe chạy lùi.",
+              "is_answer": 0
+            },
+            {
+              "text": "4- Cả ý 1 và ý 2.",
+              "is_answer": 1
+            }
+          ],
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Để điều khiển xe chạy về phía trước.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Để điều tiết công suất động cơ qua đó điều khiển tốc độ của xe.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Để điều khiển xe chạy lùi.",
+              "is_answer": 0
+            },
+            {
+              "text": "4- Cả ý 1 và ý 2.",
+              "is_answer": 1
+            }
+          ],
+          "kpi_time": 33,
+          "clone_from": "669dda5cb9926d2b780bae2e",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fc3f3edb9bcba042493",
+          "id": "677d5fc3f3edb9bcba042493",
+          "ntype": "question",
+          "type": 2,
+          "content": "Gương chiếu hậu của xe mô tô hai bánh, có tác dụng gì trong các trường hợp dưới đây?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 4,
+          "answer_as_hint": "",
+          "answers": [
+            2
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Để quan sát an toàn phía bên trái khi chuẩn bị rẽ trái.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Để quan sát an toàn phía bên phải khi chuẩn bị rẽ phải.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Để quan sát an toàn phía sau cả bên trái và bên phải trước khi chuyển hướng.",
+              "is_answer": 1
+            },
+            {
+              "text": "4- Để quan sát an toàn phía trước cả bên trái và bên phải trước khi chuyển hướng.",
+              "is_answer": 0
+            }
+          ],
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Để quan sát an toàn phía bên trái khi chuẩn bị rẽ trái.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Để quan sát an toàn phía bên phải khi chuẩn bị rẽ phải.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Để quan sát an toàn phía sau cả bên trái và bên phải trước khi chuyển hướng.",
+              "is_answer": 1
+            },
+            {
+              "text": "4- Để quan sát an toàn phía trước cả bên trái và bên phải trước khi chuyển hướng.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 46,
+          "clone_from": "669dda5db9926d2b780bae2f",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fc3f3edb9bcba042494",
+          "id": "677d5fc3f3edb9bcba042494",
+          "ntype": "question",
+          "type": 2,
+          "content": "Để đảm bảo an toàn khi tham gia giao thông, người lái xe lái xe mô tô hai bánh cần điều khiển tay ga như thế nào trong các trường hợp dưới đây?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 4,
+          "answer_as_hint": "",
+          "answers": [
+            2
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Tăng ga thật nhanh, giảm ga từ từ.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Tăng ga thật nhanh, giảm ga thật nhanh.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Tăng ga từ từ, giảm ga thật nhanh.",
+              "is_answer": 1
+            },
+            {
+              "text": "4- Tăng ga từ từ, giảm ga từ từ.",
+              "is_answer": 0
+            }
+          ],
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Tăng ga thật nhanh, giảm ga từ từ.",
+              "is_answer": 0
+            },
+            {
+              "text": "2- Tăng ga thật nhanh, giảm ga thật nhanh.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Tăng ga từ từ, giảm ga thật nhanh.",
+              "is_answer": 1
+            },
+            {
+              "text": "4- Tăng ga từ từ, giảm ga từ từ.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 39,
+          "clone_from": "669dda5eb9926d2b780bae30",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        },
+        {
+          "iid": "677d5fc3f3edb9bcba042495",
+          "id": "677d5fc3f3edb9bcba042495",
+          "ntype": "question",
+          "type": 2,
+          "content": "Kỹ thuật cơ bản để giữ thăng bằng khi điều khiển xe mô tô đi trên đường gồ ghề như thế nào trong các trường hợp dưới đây?",
+          "content_image_files": [
+            {
+              "link": null
+            }
+          ],
+          "tpl_type": "mc_answer_text",
+          "sw": 3,
+          "answer_as_hint": "",
+          "answers": [
+            0
+          ],
+          "help_text": "",
+          "mc_answers": [
+            {
+              "text": "1- Đứng thẳng trên giá gác chân lái sau đó hơi gập đầu gối và khuỷu tay, đi chậm để không nẩy quá mạnh.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Ngồi lùi lại phía sau, tăng ga vượt nhanh qua đoạn đường xóc.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Ngồi lệch sang bên trái hoặc bên phải để lấy thăng bằng qua đoạn đường gồ ghề.",
+              "is_answer": 0
+            }
+          ],
+          "tags": [
+            "Kỹ thuật lái xe"
+          ],
+          "difficulty": 0,
+          "shufflable": 1,
+          "answers2": [
+            {
+              "text": "1- Đứng thẳng trên giá gác chân lái sau đó hơi gập đầu gối và khuỷu tay, đi chậm để không nẩy quá mạnh.",
+              "is_answer": 1
+            },
+            {
+              "text": "2- Ngồi lùi lại phía sau, tăng ga vượt nhanh qua đoạn đường xóc.",
+              "is_answer": 0
+            },
+            {
+              "text": "3- Ngồi lệch sang bên trái hoặc bên phải để lấy thăng bằng qua đoạn đường gồ ghề.",
+              "is_answer": 0
+            }
+          ],
+          "kpi_time": 47,
+          "clone_from": "669dda5fb9926d2b780bae31",
+          "file_id": "6671ccd68cbb60a7a00ed443",
+          "contains_math_formulas": false,
+          "fail_if_answer_wrongly": 0,
+          "has_audio": false,
+          "__expand": {
+            "organizations": [
+              {
+                "name": "Thái Việt",
+                "code": "01035",
+                "iid": 18595668,
+                "ntype": "organization",
+                "type": "organization",
+                "pid": "0",
+                "id": "66717642c20b5947dd0e23e4"
+              }
+            ]
+          },
+          "acs": 0,
+          "depth": 2
+        }
+      ]
+    },
+    "version": 1745306556
+  },
+  "hasSystemMessage": false,
+  "ts": "",
+  "server_ts": 1745306556,
+  "request_id": "3d9e7ced5ec809cd299c8824c8c2992b",
+  "translate": 1
+}
