@@ -200,6 +200,35 @@ autoAnswerControls.innerHTML = `
 `;
 document.body.appendChild(autoAnswerControls);
 
+// Thiết lập cấu hình appsetting cho delay mô phỏng người thật
+const appSettings = {
+    simulateHumanDelay: true, // Bật/tắt mô phỏng delay như người thật
+    minDelay: 1000, // Độ trễ tối thiểu (ms)
+    maxDelay: 2000 // Độ trễ tối đa (ms)
+};
+
+// Thêm UI cấu hình vào auto-answer-controls
+const settingsHtml = `
+    <div style="margin-top:10px;">
+        <label><input type="checkbox" id="toggle-simulate-delay" ${appSettings.simulateHumanDelay ? 'checked' : ''}/> Mô phỏng delay như người thật</label><br>
+        <label>Delay tối thiểu (giây): <input type="number" id="min-delay-setting" value="${appSettings.minDelay/1000}" min="1" max="60" style="width:50px;" /></label>
+        <label>Delay tối đa (giây): <input type="number" id="max-delay-setting" value="${appSettings.maxDelay/1000}" min="1" max="120" style="width:50px;" /></label>
+    </div>
+`;
+autoAnswerControls.insertAdjacentHTML('beforeend', settingsHtml);
+
+document.getElementById('toggle-simulate-delay').addEventListener('change', function() {
+    appSettings.simulateHumanDelay = this.checked;
+});
+document.getElementById('min-delay-setting').addEventListener('change', function() {
+    let val = parseInt(this.value) * 1000;
+    if (!isNaN(val) && val > 0) appSettings.minDelay = val;
+});
+document.getElementById('max-delay-setting').addEventListener('change', function() {
+    let val = parseInt(this.value) * 1000;
+    if (!isNaN(val) && val > 0) appSettings.maxDelay = val;
+});
+
 // Tạo đối tượng quản lý trạng thái
 const autoAnswerManager = {
     _isRunning: false,
@@ -356,6 +385,15 @@ function autoAnswerQuestions() {
             return;
         }
         
+        // Sử dụng delay theo appSettings nếu bật mô phỏng, ngược lại delay 0
+        let randomDelay = 0;
+        if (appSettings.simulateHumanDelay) {
+            const min = Math.min(appSettings.minDelay, appSettings.maxDelay);
+            const max = Math.max(appSettings.minDelay, appSettings.maxDelay);
+            randomDelay = Math.floor(min + Math.random() * (max - min));
+        }
+        console.log(`Scheduled question ${index + 1} processing with delay: ${randomDelay}ms`);
+        
         setTimeout(() => {
             if (!autoAnswerManager.isRunning) {
                 console.log('Auto answer stopped during timeout');
@@ -425,17 +463,22 @@ function autoAnswerQuestions() {
                     const nextButton = document.querySelector('.btn-primary');
                     if (nextButton) {
                         console.log('Found next button, clicking in 1 second');
+                        // Tăng thời gian chờ trước khi chuyển trang
+                        const nextPageDelay = 5000 + Math.random() * 5000; // 5-10 giây
+                        console.log(`Waiting ${nextPageDelay}ms before clicking next button`);
+                        
                         setTimeout(() => {
                             if (autoAnswerManager.isRunning) {
+                                showStatus('Đang chuyển trang...');
                                 simulateClick(nextButton);
                                 // Tiếp tục tự động trả lời sau khi trang mới được tải
                                 setTimeout(() => {
                                     if (autoAnswerManager.isRunning) {
                                         autoAnswerQuestions();
                                     }
-                                }, 1500);
+                                }, 3000); // Đợi 3 giây để trang mới tải xong
                             }
-                        }, 1000);
+                        }, nextPageDelay);
                     } else {
                         console.log('No next button found, finishing auto answer');
                         showStatus('Đã hoàn thành tự động trả lời!');
@@ -468,25 +511,32 @@ function autoAnswerQuestions() {
                 
                 let clicked = false;
                 
-                // Click vào đáp án đúng
-                radioButtons.forEach((radio) => {
-                    const value = radio.getAttribute('value');
-                    console.log('Checking radio value:', value);
+                // Thêm độ trễ nhỏ trước khi click để mô phỏng hành vi người dùng
+                setTimeout(() => {
+                    // Click vào đáp án đúng
+                    radioButtons.forEach((radio) => {
+                        const value = radio.getAttribute('value');
+                        console.log('Checking radio value:', value);
+                        
+                        if (correctAnswerValues.includes(value)) {
+                            console.log('Found correct answer radio with value:', value);
+                            
+                            // Thêm hiệu ứng "suy nghĩ" trước khi click
+                            showStatus(`Đang suy nghĩ về câu trả lời...`);
+                            
+                            simulateClick(radio);
+                            clicked = true;
+                            answeredCount++;
+                            showStatus(`Đã trả lời ${answeredCount}/${questionPanels.length} câu hỏi (Khớp ID chính xác)`);
+                        }
+                    });
                     
-                    if (correctAnswerValues.includes(value)) {
-                        console.log('Found correct answer radio with value:', value);
-                        simulateClick(radio);
-                        clicked = true;
-                        answeredCount++;
-                        showStatus(`Đã trả lời ${answeredCount}/${questionPanels.length} câu hỏi (Khớp ID chính xác)`);
+                    if (!clicked) {
+                        console.log('Failed to find matching radio button for correct answer');
                     }
-                });
-                
-                if (!clicked) {
-                    console.log('Failed to find matching radio button for correct answer');
-                }
+                }, appSettings.simulateHumanDelay ? (1000 + Math.random() * 2000) : 0); // Nếu bật mô phỏng thì delay 1-3s, không thì không delay
             }
-        }, index * 1000);
+        }, randomDelay);
     });
 }
 
@@ -740,15 +790,111 @@ document.addEventListener('keydown', function(e) {
     if (e.altKey && (e.key === 'q' || e.key === 'Q')) {
         // Kích hoạt tìm kiếm thủ công
         const selectedText = getSelectedText();
+        
+        // Kiểm tra nếu người dùng chọn văn bản
         if (selectedText) {
             chrome.runtime.sendMessage({
                 type: 'manualSearch',
                 text: selectedText
             });
+        } else {
+            // Nếu không có văn bản được chọn, thử tìm câu hỏi gần nhất và tìm kiếm theo ID
+            const questionPanel = findNearestQuestionPanel();
+            if (questionPanel) {
+                const radioInput = questionPanel.querySelector('input[type="radio"]');
+                if (radioInput) {
+                    const questionId = radioInput.getAttribute('name');
+                    if (questionId) {
+                        console.log('Alt+Q: Searching by question ID:', questionId);
+                        showStatus('Đang tìm câu trả lời theo ID...');
+                        
+                        findAnswerByQuestionId(questionId, (data) => {
+                            if (data) {
+                                // Lấy nội dung câu hỏi để hiển thị trong tooltip
+                                const questionContent = questionPanel.querySelector('.question-content');
+                                let rect;
+                                
+                                if (questionContent) {
+                                    rect = questionContent.getBoundingClientRect();
+                                } else {
+                                    // Fallback nếu không tìm thấy element .question-content
+                                    rect = { right: window.innerWidth / 2, bottom: window.innerHeight / 2 };
+                                }
+                                
+                                // Tạo dữ liệu để hiển thị tooltip
+                                const tooltipData = {
+                                    question: data.question || 'Câu hỏi không rõ',
+                                    answers: data.correctValues.map(value => {
+                                        // Tìm text của đáp án dựa vào value
+                                        const answerOption = questionPanel.querySelector(`input[type="radio"][value="${value}"]`);
+                                        if (answerOption) {
+                                            const answerLabel = answerOption.closest('.mc-text-question__radio-answer');
+                                            if (answerLabel) {
+                                                return answerLabel.textContent.trim();
+                                            }
+                                        }
+                                        return `Đáp án ${parseInt(value) + 1}`;
+                                    }),
+                                    confidence: data.confidence
+                                };
+                                
+                                showTooltip(tooltipData, rect.right, rect.bottom);
+                                showStatus('Đã tìm thấy đáp án!');
+                            } else {
+                                showStatus('Không tìm thấy đáp án theo ID, hãy thử chọn văn bản câu hỏi!');
+                            }
+                        });
+                        return;
+                    }
+                }
+            }
+            
+            showStatus('Vui lòng chọn văn bản câu hỏi để tìm câu trả lời!');
         }
     }
-    
 }, true);
+
+// Hàm tìm question panel gần nhất với vị trí chuột hoặc lấy panel đầu tiên
+function findNearestQuestionPanel() {
+    const questionPanels = document.querySelectorAll('.question-panel');
+    if (questionPanels.length === 0) {
+        return null;
+    }
+    
+    // Lấy vị trí chuột hiện tại hoặc sử dụng selection
+    const selection = window.getSelection();
+    if (selection && selection.rangeCount > 0) {
+        const range = selection.getRangeAt(0);
+        const rect = range.getBoundingClientRect();
+        const mouseX = rect.left;
+        const mouseY = rect.top;
+        
+        // Tìm panel gần nhất với vị trí chuột
+        let nearestPanel = null;
+        let shortestDistance = Infinity;
+        
+        questionPanels.forEach(panel => {
+            const panelRect = panel.getBoundingClientRect();
+            const panelCenterX = panelRect.left + panelRect.width / 2;
+            const panelCenterY = panelRect.top + panelRect.height / 2;
+            
+            const distance = Math.sqrt(
+                Math.pow(mouseX - panelCenterX, 2) + 
+                Math.pow(mouseY - panelCenterY, 2)
+            );
+            
+            if (distance < shortestDistance) {
+                shortestDistance = distance;
+                nearestPanel = panel;
+            }
+        });
+        
+        return nearestPanel;
+    }
+    
+    // Fallback: trả về panel đầu tiên nếu không xác định được vị trí chuột
+    return questionPanels[0];
+}
 
 // Đóng tooltip khi click ra ngoài
 document.addEventListener('click', (e) => {
