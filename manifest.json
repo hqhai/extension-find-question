@@ -36,6 +36,12 @@
                 "default": "Alt+Q"
             },
             "description": "Tìm câu trả lời cho văn bản đã chọn"
+        },
+        "auto-answer": {
+            "suggested_key": {
+                "default": "Alt+A"
+            },
+            "description": "Tự động trả lời tất cả câu hỏi trên trang"
         }
     }
 } 
