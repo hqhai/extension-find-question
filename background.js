@@ -10,6 +10,10 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
         // Xử lý tìm kiếm thủ công từ content script
         console.log('Manual search triggered with text:', request.text);
         processSelectedText(request.text, sender.tab.id, request.imageSource || null);
+    } else if (request.type === 'findByQuestionId' && request.questionId) {
+        // Xử lý tìm kiếm theo ID câu hỏi
+        console.log('Search by question ID triggered:', request.questionId);
+        findQuestionById(request.questionId, sender.tab.id);
     }
 });
 
@@ -111,14 +115,61 @@ function findAnswer(questions, query, imageSource = null) {
     
     let bestMatch = null;
     let highestRatio = 0;
+    let exactMatch = null;
+    let exactImageMatches = [];
+    
+    // Chuẩn hóa truy vấn để tăng độ chính xác khi so sánh
+    const normalizedQuery = query.toLowerCase().trim().replace(/\s+/g, ' ');
     
     for (const question of questions) {
+        // Chuẩn hóa nội dung câu hỏi từ cơ sở dữ liệu
+        const normalizedContent = question.content.toLowerCase().trim().replace(/\s+/g, ' ');
+        
+        // Kiểm tra khớp chính xác trước tiên
+        if (normalizedContent === normalizedQuery) {
+            console.log('Found EXACT text match:', question.content);
+            exactMatch = question;
+            
+            // Nếu cũng có hình ảnh khớp, đây là kết quả hoàn hảo
+            if (imageSource && question.image) {
+                const imageRatio = compareImageSources(imageSource, question.image);
+                if (imageRatio > 0.9) {
+                    console.log('Found exact match with high image similarity!');
+                    // Trả về kết quả ngay lập tức với độ tin cậy cao nhất
+                    const correctAnswers = question.mc_answers
+                        .filter(answer => answer.is_answer === 1)
+                        .map(answer => answer.text);
+                    
+                    return {
+                        question: question.content,
+                        answers: correctAnswers,
+                        confidence: 1.0,
+                        imageUrl: question.image || null,
+                        questionId: question.id ? question.id.toString() : null
+                    };
+                }
+            }
+            
+            // Nếu không có hình ảnh khớp, vẫn tiếp tục tìm kiếm để xem có kết quả nào tốt hơn không
+        }
+        
+        // Tính điểm tương đồng văn bản
         let ratio = similarityScore(query, question.content);
         
         // Nếu có hình ảnh, so sánh thêm URL hình ảnh để nâng cao độ chính xác
         if (imageSource && question.image) {
             const imageRatio = compareImageSources(imageSource, question.image);
-            // Nếu hình ảnh khớp cao, tăng độ tương đồng tổng thể
+            
+            // Nếu hình ảnh khớp cao, lưu lại để xử lý đặc biệt
+            if (imageRatio > 0.9) {
+                exactImageMatches.push({
+                    question,
+                    textRatio: ratio,
+                    imageRatio
+                });
+            }
+            
+            // Tăng tỷ lệ khớp dựa trên độ tương đồng hình ảnh
             if (imageRatio > 0.7) {
                 ratio = Math.max(ratio, (ratio + imageRatio) / 2);
                 console.log('Image match boost for question:', question.content, 'New ratio:', ratio);
@@ -128,6 +179,27 @@ function findAnswer(questions, query, imageSource = null) {
         if (ratio > highestRatio) {
             highestRatio = ratio;
             bestMatch = question;
+        }
+    }
+    
+    // Nếu có kết quả khớp chính xác về text, ưu tiên sử dụng
+    if (exactMatch) {
+        console.log('Using exact text match as best result');
+        bestMatch = exactMatch;
+        highestRatio = Math.max(highestRatio, 0.95); // Đảm bảo độ tin cậy cao
+    }
+    
+    // Nếu có kết quả khớp chính xác về hình ảnh, xem xét ưu tiên
+    if (exactImageMatches.length > 0) {
+        // Sắp xếp theo độ tương đồng văn bản giảm dần
+        exactImageMatches.sort((a, b) => b.textRatio - a.textRatio);
+        const bestImageMatch = exactImageMatches[0];
+        
+        // Nếu độ tương đồng văn bản đủ cao, ưu tiên kết quả này
+        if (bestImageMatch.textRatio > 0.7) {
+            console.log('Using best image match as result due to high image similarity');
+            bestMatch = bestImageMatch.question;
+            highestRatio = Math.max(highestRatio, 0.9); // Đảm bảo độ tin cậy cao
         }
     }
     
@@ -144,11 +216,93 @@ function findAnswer(questions, query, imageSource = null) {
     
     console.log('Found answer:', correctAnswers);
     
+    // Trích xuất ID của các đáp án đúng nếu có
+    const answerIds = [];
+    if (bestMatch.mc_answers) {
+        bestMatch.mc_answers
+            .filter(answer => answer.is_answer === 1)
+            .forEach(answer => {
+                if (answer.id) {
+                    answerIds.push(answer.id.toString());
+                }
+                // Thêm các ID thay thế nếu có
+                if (answer.option_id) {
+                    answerIds.push(answer.option_id.toString());
+                }
+                if (answer.value) {
+                    answerIds.push(answer.value.toString());
+                }
+            });
+    }
+    
     return {
         question: bestMatch.content,
         answers: correctAnswers,
-        confidence: highestRatio
+        confidence: highestRatio,
+        imageUrl: bestMatch.image || null,
+        questionId: bestMatch.id ? bestMatch.id.toString() : null,
+        answerIds: answerIds
     };
+}
+
+// Hàm tìm câu hỏi theo ID
+function findQuestionById(questionId, tabId) {
+    console.log('Finding question by ID:', questionId);
+    
+    // Lấy dữ liệu câu hỏi từ storage
+    chrome.storage.local.get(['questions'], function(result) {
+        if (!result.questions || result.questions.length === 0) {
+            console.error('No questions found in storage');
+            sendQuestionIdResult(tabId, questionId, null);
+            return;
+        }
+        
+        console.log('Searching through', result.questions.length, 'questions for ID:', questionId);
+        
+        // Tìm câu hỏi có ID khớp chính xác với questionId
+        const exactMatch = result.questions.find(q => q.iid === questionId);
+        
+        if (exactMatch) {
+            console.log('Found exact match for question ID:', questionId);
+            
+            // Lấy giá trị (value) của các đáp án đúng
+            const correctValues = [];
+            if (exactMatch.mc_answers && Array.isArray(exactMatch.mc_answers)) {
+                exactMatch.mc_answers.forEach((answer, index) => {
+                    if (answer.is_answer === 1) {
+                        correctValues.push(index.toString());
+                        console.log('Correct answer at index:', index, 'text:', answer.text);
+                    }
+                });
+            }
+            
+            // Trả về kết quả với các đáp án đúng
+            sendQuestionIdResult(tabId, questionId, {
+                question: exactMatch.content,
+                correctValues: correctValues,
+                confidence: 1.0
+            });
+            return;
+        }
+        
+        console.log('No exact match found for question ID:', questionId);
+        sendQuestionIdResult(tabId, questionId, null);
+    });
+}
+
+// Hàm gửi kết quả tìm kiếm theo ID về content script
+function sendQuestionIdResult(tabId, questionId, data) {
+    chrome.tabs.sendMessage(tabId, {
+        type: 'questionIdResult',
+        questionId: questionId,
+        data: data
+    }, (response) => {
+        if (chrome.runtime.lastError) {
+            console.error('Error sending ID search result:', chrome.runtime.lastError);
+        } else {
+            console.log('ID search result sent successfully');
+        }
+    });
 }
 
 // Khởi tạo context menu và load dữ liệu

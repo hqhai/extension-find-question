@@ -362,90 +362,61 @@ function autoAnswerQuestions() {
                 return;
             }
             
-            // Tìm nội dung câu hỏi
-            const questionContent = panel.querySelector('.question-content');
-            if (!questionContent) {
-                console.log('No question content found for panel', index);
+            // Tìm input radio đầu tiên để lấy thuộc tính name
+            const firstRadio = panel.querySelector('input[type="radio"]');
+            if (!firstRadio) {
+                console.log('No radio input found in panel', index);
                 processedCount++;
                 return;
             }
             
-            // Lấy nội dung text của câu hỏi
-            const questionText = questionContent.textContent.trim();
-            console.log('Processing question:', questionText);
-            
-            // Tìm hình ảnh nếu có
-            const questionImage = questionContent.querySelector('img');
-            const imageSource = questionImage ? questionImage.src : null;
-            
-            // Tìm các phương án trả lời
-            const answerOptions = panel.querySelectorAll('.mc-text-question__radio-answer');
-            
-            if (answerOptions.length === 0) {
-                console.log('No answer options found for question:', questionText);
+            // Lấy thuộc tính name từ radio button để tìm câu hỏi
+            const questionId = firstRadio.getAttribute('name');
+            if (!questionId) {
+                console.log('Radio input has no name attribute', index);
                 processedCount++;
                 return;
             }
             
-            // Tìm câu trả lời từ dữ liệu có sẵn
-            findAnswerFromDatabase(questionText, imageSource, (data) => {
+            console.log('Found question ID from radio name:', questionId);
+            
+            // Tìm câu trả lời dựa trên ID câu hỏi
+            findAnswerByQuestionId(questionId, (data) => {
                 if (!autoAnswerManager.isRunning) {
                     console.log('Auto answer stopped during answer search');
                     return;
                 }
                 
                 if (!data) {
-                    console.log('No answer found in database for:', questionText);
-                    processedCount++;
+                    console.log('No answer found in database for question ID:', questionId);
+                    
+                    // Nếu không tìm thấy bằng ID, thử tìm bằng nội dung câu hỏi
+                    const questionContent = panel.querySelector('.question-content');
+                    if (questionContent) {
+                        const questionText = questionContent.textContent.trim();
+                        const questionImage = questionContent.querySelector('img');
+                        const imageSource = questionImage ? questionImage.src : null;
+                        
+                        findAnswerFromDatabase(questionText, imageSource, (textBasedData) => {
+                            processAnswerData(textBasedData, panel, questionId);
+                            processedCount++;
+                            checkCompletion();
+                        });
+                    } else {
+                        processedCount++;
+                        checkCompletion();
+                    }
                     return;
                 }
                 
-                // Tìm đáp án đúng trong các phương án
-                let correctAnswerFound = false;
-                let bestMatch = null;
-                let bestScore = 0;
-                
-                // Tìm đáp án có độ tương đồng cao nhất
-                answerOptions.forEach((option) => {
-                    if (!autoAnswerManager.isRunning) return;
-                    
-                    const optionText = option.textContent.trim();
-                    console.log('Checking option:', optionText);
-                    
-                    // Kiểm tra với tất cả câu trả lời đúng
-                    for (const correctAnswer of data.answers) {
-                        const score = similarityScore(optionText, correctAnswer);
-                        console.log(`Similarity score for "${optionText}" vs "${correctAnswer}":`, score);
-                        
-                        if (score > bestScore) {
-                            bestScore = score;
-                            bestMatch = option;
-                        }
-                    }
-                });
-                
-                // Chọn đáp án có độ tương đồng cao nhất nếu vượt ngưỡng
-                if (bestMatch && bestScore > 0.7) {
-                    console.log('Best matching answer found:', bestMatch.textContent.trim(), 'with score:', bestScore);
-                    
-                    if (!bestMatch.classList.contains('mc-text-question__radio-answer--selected')) {
-                        const radioInput = bestMatch.querySelector('input[type="radio"]');
-                        if (radioInput && !radioInput.disabled) {
-                            simulateClick(radioInput);
-                            correctAnswerFound = true;
-                            answeredCount++;
-                            showStatus(`Đã trả lời ${answeredCount}/${questionPanels.length} câu hỏi (Độ chính xác: ${(bestScore * 100).toFixed(1)}%)`);
-                        }
-                    } else {
-                        correctAnswerFound = true;
-                        answeredCount++;
-                        showStatus(`Đã trả lời ${answeredCount}/${questionPanels.length} câu hỏi (Độ chính xác: ${(bestScore * 100).toFixed(1)}%)`);
-                    }
-                } else {
-                    console.log('No answer matched with sufficient confidence');
-                }
-                
+                // Xử lý kết quả tìm được
+                processAnswerData(data, panel, questionId);
                 processedCount++;
+                checkCompletion();
+            });
+            
+            // Hàm kiểm tra và xử lý hoàn thành
+            function checkCompletion() {
                 console.log('Processed count:', processedCount, 'Total:', questionPanels.length);
                 
                 // Kiểm tra nếu đã xử lý hết tất cả câu hỏi
@@ -471,9 +442,83 @@ function autoAnswerQuestions() {
                         autoAnswerManager.isRunning = false;
                     }
                 }
-            });
+            }
+            
+            // Hàm xử lý dữ liệu đáp án
+            function processAnswerData(data, panel, questionId) {
+                if (!data) {
+                    console.log('No answer data to process');
+                    return;
+                }
+                
+                console.log('Processing answer data:', data);
+                
+                // Lấy danh sách các đáp án đúng
+                const correctAnswerValues = data.correctValues || [];
+                console.log('Correct answer values:', correctAnswerValues);
+                
+                if (correctAnswerValues.length === 0) {
+                    console.log('No correct answer values found');
+                    return;
+                }
+                
+                // Lấy tất cả radio buttons của câu hỏi này
+                const radioButtons = panel.querySelectorAll(`input[type="radio"][name="${questionId}"]`);
+                console.log('Found radio buttons:', radioButtons.length);
+                
+                let clicked = false;
+                
+                // Click vào đáp án đúng
+                radioButtons.forEach((radio) => {
+                    const value = radio.getAttribute('value');
+                    console.log('Checking radio value:', value);
+                    
+                    if (correctAnswerValues.includes(value)) {
+                        console.log('Found correct answer radio with value:', value);
+                        simulateClick(radio);
+                        clicked = true;
+                        answeredCount++;
+                        showStatus(`Đã trả lời ${answeredCount}/${questionPanels.length} câu hỏi (Khớp ID chính xác)`);
+                    }
+                });
+                
+                if (!clicked) {
+                    console.log('Failed to find matching radio button for correct answer');
+                }
+            }
         }, index * 1000);
     });
+}
+
+// Hàm tìm câu trả lời dựa trên ID câu hỏi
+function findAnswerByQuestionId(questionId, callback) {
+    console.log('Searching for answer with question ID:', questionId);
+    
+    chrome.runtime.sendMessage({
+        type: 'findByQuestionId',
+        questionId: questionId,
+        timestamp: Date.now()
+    });
+    
+    // Lắng nghe phản hồi từ background script
+    const messageListener = (message) => {
+        if (message.type === 'questionIdResult' && message.questionId === questionId) {
+            console.log('Received answer data for question ID:', questionId, message.data);
+            
+            // Gỡ bỏ event listener để tránh xung đột
+            chrome.runtime.onMessage.removeListener(messageListener);
+            callback(message.data);
+        }
+    };
+    
+    chrome.runtime.onMessage.addListener(messageListener);
+    
+    // Timeout để tránh chờ vô hạn
+    setTimeout(() => {
+        chrome.runtime.onMessage.removeListener(messageListener);
+        console.log('Search by ID timeout reached');
+        callback(null);
+    }, 5000);
 }
 
 // Hàm chuẩn hóa URL hình ảnh
